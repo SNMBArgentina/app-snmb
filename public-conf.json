@@ -1,0 +1,26 @@
+{
+	"core": {
+		"error-management": {
+			"div-id": null
+		}
+	},
+	"base": {
+		"banner": {
+			"hide": false,
+			"show-flag": true,
+			"show-logos": true
+		},
+		"info-dialog": {
+			"open-in-center": false
+		}
+	},
+	"layer-order" : {
+		"_enabled" : false
+	},
+	"layers-editor" : {
+		"_enabled" : false
+	},
+	"auth": {
+		"_enabled": false
+	}
+}
