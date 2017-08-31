@@ -15,10 +15,10 @@
 		}
 	},
         "language-buttons":{
-                "_enable" : false
+                "_enabled" : false
         },
          "time-slider":{
-                "_enable" : false
+                "_enabled" : false
         },
 	"layer-order" : {
 		"_enabled" : false
