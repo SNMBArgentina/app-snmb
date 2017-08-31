@@ -27,6 +27,6 @@
 		"_enabled" : false
 	},
 	"auth": {
-		"_enabled": false
+		"_enabled": true
 	}
 }
