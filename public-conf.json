@@ -14,6 +14,12 @@
 			"open-in-center": false
 		}
 	},
+        "language-buttons":{
+                "_enable" : false
+        },
+         "time-slider":{
+                "_enable" : false
+        },
 	"layer-order" : {
 		"_enabled" : false
 	},
