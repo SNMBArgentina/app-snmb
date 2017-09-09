@@ -1,32 +1,32 @@
 {
     "wmsLayers": [
         {
-            "wmsName": "unredd:blue_marble", 
-            "baseUrl": "http://rdc-snsf.org/diss_geoserver/wms", 
-            "id": "blue-marble", 
+            "wmsName": "unredd:blue_marble",
+            "baseUrl": "http://rdc-snsf.org/diss_geoserver/wms",
+            "id": "blue-marble",
             "visible": true
-        }, 
+        },
         {
-            "sourceLabel": "", 
-            "sourceLink": "", 
-            "baseUrl": "/bosques_umsef_db/wms", 
-            "label": "Cantidad de Incendios por a\u00f1o", 
-            "visible": true, 
-            "legend": "auto", 
-            "imageFormat": "image/png8", 
-            "id": "provincias_incendios", 
-            "wmsName": "bosques_umsef_db:provincias_incendios", 
+            "sourceLabel": "",
+            "sourceLink": "",
+            "baseUrl": "/bosques_umsef_db/wms",
+            "label": "Cantidad de Incendios por a\u00f1o",
+            "visible": true,
+            "legend": "auto",
+            "imageFormat": "image/png8",
+            "id": "provincias_incendios",
+            "wmsName": "bosques_umsef_db:provincias_incendios",
             "queryType": "wms"
-        }, 
+        },
         {
-            "baseUrl": "/gwc/service/wms", 
-            "label": "L\u00edmites nacionales", 
-            "visible": true, 
-            "imageFormat": "image/png8", 
-            "id": "limites_nacionales", 
-            "wmsName": "bosques_umsef_db:limites_nacionales_3857", 
+            "baseUrl": "/gwc/service/wms",
+            "label": "L\u00edmites nacionales",
+            "visible": true,
+            "imageFormat": "image/png8",
+            "id": "limites_nacionales",
+            "wmsName": "bosques_umsef_db:limites_nacionales_3857",
             "legend": "lim_nac.png"
-        }, 
+        },
         {
             "queryType": "wms", 
             "baseUrl": "http://ide.siia.gov.ar/geosever/wms", 

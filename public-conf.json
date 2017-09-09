@@ -28,5 +28,8 @@
 	},
 	"auth": {
 		"_enabled": true
+	},
+	"footnote" : {
+		"_enabled": false
 	}
 }
