@@ -2,7 +2,8 @@
     border: 1px solid #666;
     border-radius: 6px;
     padding: 3px;
-    background:black;
+    background: black;
+    color: #ddd;
 }
 
 .dialog-title {
@@ -20,3 +21,16 @@
 .dialog-close {
     top: 2px;
 }
+
+.dialog-ok-button {
+  height: 15px;
+}
+
+div#feedback-controls {
+    display: table-cell;
+}
+
+#feedback-draw-control, #feedback-modify-control {
+    margin: 0px 15px 0px 0px ;
+}
+
