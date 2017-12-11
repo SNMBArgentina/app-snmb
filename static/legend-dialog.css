@@ -1,0 +1,28 @@
+#legend_panel_content {
+  min-height: 400px;
+}
+
+.layer_legend_header {
+    display: table;
+    text-align: left;
+}
+
+.layer_legend_container {
+    border: 0;
+}
+
+.legend_image {
+    text-align: left;
+}
+
+.legend_image>img {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.layer_legend_source_label {
+    position: absolute;
+    width: 10em;
+    right: 15px;
+    text-align: right;
+}

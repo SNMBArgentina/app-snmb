@@ -1,0 +1,130 @@
+#layers_container {
+  height: calc(100% - 215px);
+}
+
+#layer_list_selector_pane .button-enabled {
+  margin: 0px 10px;
+}
+
+#layer_list_selector_pane .button-enabled, .layer-list-accordion-header {
+  background: #555;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.layer-list-accordion-header {
+  height: 14px;
+  padding: 5.5px;
+  line-height: 14px;
+  border-radius: 6px;
+  border: 1px solid #666;
+  border-bottom: 0;
+  color: #ddd;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.layer-list-accordion-header:before {
+  content: "\25B6";
+  font-size: 8px;
+  vertical-align: top;
+  padding: 0px 6px;
+}
+
+.layer-list-accordion.accordion-content {
+  background: #222;
+  color: #ddd;
+  font-size: 10px;
+  border: 1px solid #666;
+  border-radius: 6px;
+  padding: 15px 6px;
+}
+
+.layer-list-accordion>.ui-input-container {
+  height: 22px;
+}
+
+.layer_info_button {
+  display: inline-block;
+  height: 14px;
+  float: right;
+}
+
+.layer-list-accordion-header>p {
+  width: auto;
+}
+
+#layers_container {
+  width: 21em;
+}
+
+.ui-input-container>.layer_info_button {
+  width: 20px;
+}
+
+.inline-legend-button {
+  width: 20px;
+}
+
+.layer-list-accordion.accordion-content .layer-list-accordion-header {
+  background: transparent;
+  border: 0;
+  padding: 0px;
+}
+
+.layer-list-accordion.accordion-content .layer-list-accordion-header:before {
+  content: none;
+}
+
+.layer-list-accordion.accordion-content .layer-list-accordion.accordion-content {
+  border: 0;
+  padding: 2px 0px 2px 2px;
+}
+
+.layer-list-accordion.accordion-content .layer-list-accordion.accordion-content {
+  display: block !important;
+}
+
+.layer-list-accordion.accordion-content .layer-list-accordion-header {
+  pointer-events: none !important;
+}
+
+#layer_list_selector_pane {
+  margin-top: 8px;
+}
+
+#layer_list_selector_pane .button-enabled {
+  border: 1px solid #666;
+  border-right: 0;
+  margin: 0;
+}
+
+#layer_list_selector_pane .button-enabled:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#layer_list_selector_pane .button-enabled:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: 1px solid #666;
+}
+
+#layer_list_selector_pane .button-active {
+  background: #0078a3;
+  border: 1px solid #26b3f7;
+}
+
+.layer_container_panel {
+  background: #222;
+  color: #ddd;
+  font-weight: bold;
+  font-size: 11px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+#active_layers>.ui-input-container,#layerTimeSliders>.ui-input-container {
+  display: block;
+}

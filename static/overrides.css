@@ -1,23 +1,35 @@
 /* Override styles in this file */
-#title{
-    top: 15px;
-    left: 400px;
-    font-size: 25px;
+@import 'dialogs.css';
+@import 'layer-list.css';
+@import 'legend-dialog.css';
+@import 'sliders.css';
+
+#title {
+  top: 15px;
+  left: 400px;
+  font-size: 25px;
 }
 
 /*Cambio de los banner*/
+
 /*Anular el banner izquierdo*/
+
 #banner-izq {
-    display: none;
+  display: none;
 }
 
 /*Adaptacion logo ministerio*/
+
 #flag {
-    position: relative;
-    top: 12px;
-    left: 12px;
-    height: 69px;
-    width: auto;
-    z-index: 1100;
-    background: url(../static/img/flag.png) no-repeat 0 0;
+  position: relative;
+  top: 12px;
+  left: 12px;
+  height: 69px;
+  width: auto;
+  z-index: 1100;
+  background: url(../static/img/flag.png) no-repeat 0 0;
+}
+
+body {
+  font: "Trebuchet MS", sans-serif;
 }

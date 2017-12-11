@@ -1,0 +1,22 @@
+.dialog {
+    border: 1px solid #666;
+    border-radius: 6px;
+    padding: 3px;
+    background:black;
+}
+
+.dialog-title {
+    color: #ddd;
+    font-weight: bold;
+    font-size: 11px;
+    height: 25px;
+    line-height: 26px;
+    background: #555;
+    border-radius: 6px;
+    text-align:left;
+    padding-left: 10px;
+}
+
+.dialog-close {
+    top: 2px;
+}

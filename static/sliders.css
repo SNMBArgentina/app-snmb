@@ -1,0 +1,24 @@
+.noUi-handle:after, .noUi-handle:before {
+  content: none;
+}
+
+.noUi-horizontal .noUi-handle, .noUi-horizontal {
+  border: 1px solid #666;
+  box-shadow: none;
+}
+
+.noUi-horizontal .noUi-handle {
+  height: 15px;
+  width: 15px;
+  top: -4px;
+  left: -7px;
+  border-radius: 20px;
+  background: #555;
+  cursor: pointer;
+}
+
+.noUi-horizontal {
+  margin: 10px 0px 20px;
+  height: 10px;
+  background: #444;
+}
