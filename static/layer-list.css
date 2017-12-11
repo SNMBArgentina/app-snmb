@@ -55,7 +55,7 @@
 }
 
 #layers_container {
-  width: 21em;
+  width: 26em;
 }
 
 .ui-input-container>.layer_info_button {
@@ -128,3 +128,13 @@
 #active_layers>.ui-input-container,#layerTimeSliders>.ui-input-container {
   display: block;
 }
+
+.layer-info-button,.editable-layer-list-button {
+    display: inline-block !important;
+    float: right !important;
+}
+
+.accordion-content .ui-input-container .editable-layer-list-button {
+    width: 20px;
+}
+
