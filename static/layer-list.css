@@ -125,7 +125,7 @@
   margin-top: 5px;
 }
 
-#active_layers>.ui-input-container,#layerTimeSliders>.ui-input-container {
+#active_layers .ui-input-container,#layerTimeSliders>.ui-input-container {
   display: block;
 }
 
