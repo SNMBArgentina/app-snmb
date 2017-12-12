@@ -1,7 +1,3 @@
-.noUi-handle:after, .noUi-handle:before {
-  content: none;
-}
-
 .noUi-horizontal .noUi-handle, .noUi-horizontal {
   border: 1px solid #666;
   box-shadow: none;
