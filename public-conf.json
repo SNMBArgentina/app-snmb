@@ -32,5 +32,304 @@
 	},
 	"footnote" : {
 		"_enabled": false
+	},
+	"tour": {
+		"tour": {
+			"steps": [
+				{
+					"id": "map",
+					"text": "Éste es el mapa donde se muestran los datos.",
+					"location": "top",
+					"next": {
+						"initial-zoom": []
+					}
+				},
+				{
+					"id": "map",
+					"text": "Como todos los mapas dinámicos, tiene herramientas para navegar."
+				},
+				{
+					"id": "map",
+					"text": "Con el ratón podemos arrastrar para desplazar el mapa, y acercarnos y alejarnos con la rueda.",
+					"next": {
+						"zoom-out": []
+					}
+				},
+				{
+					"id": "zoom_out",
+					"text": "Con este botón podemos alejarnos,",
+					"location": "right",
+					"next": {
+						"zoom-in": []
+					}
+				},
+				{
+					"id": "zoom_in",
+					"text": "con este acercarnos,",
+					"location": "right",
+					"next": {
+						"9zoom-in": []
+					}
+				},
+				{
+					"id": "map",
+					"text": "y si no sabemos donde nos encontramos...",
+					"next": {
+						"initial-zoom": []
+					}
+				},
+				{
+					"id": "zoom_to_max_extent",
+					"text": "... podemos pinchar en este botón y volver al encuadre inicial.",
+					"location": "right"
+				},
+				{
+					"id": "layers_container",
+					"text": "Ésta es la lista con las capas. Pincha en un grupo y se desplegarán las capas contenidas en él.",
+					"location": "top",
+					"next": {
+						"show-layer-group": [
+							"base"
+						]
+					}
+				},
+				{
+					"id": "layers_container",
+					"text": "Aquí están cada una de las capas que se visualizan en el mapa. Veamos qué opciones hay.",
+					"location": "top"
+				},
+				{
+					"id": "blue-marble",
+					"text": "Es posible hacer las capas visibles o invisibles pinchando en este checkbox. Vamos a esconder esta capa.",
+					"location": "left",
+					"next": {
+						"layer-visibility": [
+							"blue-marble",
+							false
+						]
+					}
+				},
+				{
+					"id": "blue-marble",
+					"text": "Es posible hacer las capas visibles o invisibles pinchando en este checkbox. Vamos a esconder esta capa.",
+					"location": "left",
+					"next": {
+						"layer-visibility": [
+							"blue-marble",
+							false
+						]
+					}
+				},
+				{
+					"id": "blue-marble",
+					"location": "left",
+					"text": "¿Ves qué fácil?",
+					"next": {
+						"show-layer-group": [
+							"area_bosques"
+						],
+						"layer-visibility": [
+							"selvamis_t",
+							true
+						]
+					}
+				},
+				{
+					"id": "inline-legend-button-selvamis_t",
+					"text": "También podemos mostrar la leyenda de algunas capas pinchando en este icono.",
+					"location": "right",
+					"next": {
+						"open-legend": [
+							"selvamis_t"
+						]
+					}
+				},
+				{
+					"id": "legend_panel",
+					"location": "top",
+					"text": "La leyenda aparecerá en este panel."
+				},
+				{
+					"id": "toggle_legend",
+					"location": "left",
+					"text": "Y pinchando en este botón podemos mostrar y esconder el diálogo.",
+					"next": {
+						"toggle-legend": ""
+					}
+				},
+				{
+					"id": "toggle_legend",
+					"location": "left",
+					"text": "Listo."
+				},
+				{
+					"id": "layer_info_button_selvamis_t",
+					"text": "Otra de las cosas que se puede hacer con las capas es ver la información asociada, pinchando en este botón.",
+					"location": "right",
+					"next": {
+						"show-layer-info": "selvamis_t"
+					}
+				},
+				{
+					"id": "layer_info_button_selvamis_t",
+					"location": "right",
+					"text": "El panel se puede cerrar pulsando escape o el aspa que hay en la ventana emergente.",
+					"next": {
+						"hide-info": ""
+					}
+				},
+				{
+					"id": "layers_container",
+					"text": "Detrás de este panel de capas hay otros paneles que nos permiten determinadas operaciones con algunas capas. Por ejemplo cambiar la transparencia.",
+					"location": "top",
+					"next": {
+						"show-layer-panel": [
+							"layers_transparency_selector"
+						]
+					}
+				},
+				{
+					"id": "layers_container",
+					"text": "En este panel es posible cambiar la transparencia de las capas deslizando las distintas barras.",
+					"location": "top"
+				},
+				{
+					"id": "selvamis_t_transparency_slider",
+					"text": "Al mover la barra, la transparencia se cambia en el mapa.",
+					"location": "bottom",
+					"next": {
+						"transparency-slider-changed": [
+							"selvamis_t",
+							0.25
+						]
+					}
+				},
+				{
+					"id": "selvamis_t_transparency_slider",
+					"text": "En el mapa ahora la selva Paranaense es transparente.",
+					"location": "bottom",
+					"next": {
+						"show-layer-panel": [
+							"all_layers_selector"
+						],
+						"show-layer-group": [
+							"landcover"
+						]
+					}
+				},
+				{
+					"id": "layers_container",
+					"text": "Algunas capas tienen varias instancias temporales.",
+					"location": "top",
+					"next": {
+						"layer-visibility": [
+							"pchbn06_3857",
+							true
+						]
+					}
+				},
+				{
+					"id": "pchbn06_3857-container",
+					"text": "Por ejemplo la capa con el Parque Chaqueño. Vamos a visualizarla desde más cerca.",
+					"location": "top",
+					"next": {
+						"zoom-to": {
+							"x": -61.2,
+							"y": -29.8,
+							"zoomLevel": 6
+						}
+					}
+				},
+				{
+					"id": "layer_list_selector_pane",
+					"text": "La fecha de la capa se puede cambiar mediante el panel \"Temporal\".",
+					"location": "top",
+					"next": {
+						"show-layer-panel": [
+							"layer_slider_selector"
+						]
+					}
+				},
+				{
+					"id": "layerTimeSliders",
+					"text": "En este panel apareceran barras temporales para cada capa que tenga varias instancias temporales y esté visible...",
+					"location": "bottom"
+				},
+				{
+					"id": "layerTimeSliders",
+					"text": "...lo que nos permite modificar el instante temporal individualmente para una capa.",
+					"location": "bottom",
+					"next": {
+						"layer-time-slider.selection": [
+							"pchbn06_3857",
+							"Xnew Date(Date.UTC(2002, 0, 1, 0, 0, 0, 0))"
+						]
+					}
+				},
+				{
+					"id": "map",
+					"text": "Pero en el portal no sólo es posible visualizar los datos...",
+					"location": "top"
+				},
+				{
+					"id": "map",
+					"text": "... sino también obtener información pinchando en ellos",
+					"location": "top"
+				},
+				{
+					"id": "map",
+					"text": "Basta con hacer clic en un punto del mapa",
+					"location": "top",
+					"next": {
+						"map-click": [
+							-34,
+							-67.5
+						]
+					},
+					"wait": "info-features"
+				},
+				{
+					"id": "info_popup",
+					"text": "y nos aparecerán en el diálogo de información los datos de los objetos en los que hemos pinchado.",
+					"location": "top",
+					"next": {
+						"highlight-info-feature": [
+							0
+						]
+					}
+				},
+				{
+					"id": "info_popup",
+					"text": "Pasando el ratón por las tablas podemos ver el objeto resaltado en el mapa.",
+					"location": "top",
+					"next": {
+						"zoom-info-feature": [
+							0
+						]
+					}
+				},
+				{
+					"id": "info-magnifier-limites_provinciales-0",
+					"text": "Y pinchando en la lupa podemos hacer zoom al objeto",
+					"location": "top",
+					"next": {
+						"clear-highlighted-features": []
+					}
+				},
+				{
+					"id": "map",
+					"text": "El panel se puede cerrar pulsando escape o el aspa que hay en la ventana emergente.",
+					"location": "top",
+					"next": {
+						"hide-info-features": ""
+					}
+				},
+				{
+					"id": "map",
+					"text": "Esto es todo.",
+					"location": "top"
+				}
+			]
+		}
 	}
 }
