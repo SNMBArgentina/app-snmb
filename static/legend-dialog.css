@@ -1,5 +1,6 @@
 #legend_panel_content {
-  min-height: 400px;
+  height: 400px;
+  overflow-y: auto;
 }
 
 .layer_legend_header {
