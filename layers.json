@@ -606,5 +606,5 @@
             "label": "Informaci\u00f3n Auxiliar"
         }
     ], 
-    "default-server": "http://snmb.ambiente.gob.ar/geo-server"
+    "default-server": "http://snmb.ambiente.gob.ar/geo-server/ows"
 }
