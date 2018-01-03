@@ -46,10 +46,12 @@
 				},
 				{
 					"id": "map",
+					"location": "top",
 					"text": "Como todos los mapas dinámicos, tiene herramientas para navegar."
 				},
 				{
 					"id": "map",
+					"location": "top",
 					"text": "Con el ratón podemos arrastrar para desplazar el mapa, y acercarnos y alejarnos con la rueda.",
 					"next": {
 						"zoom-out": []
@@ -74,6 +76,7 @@
 				{
 					"id": "map",
 					"text": "y si no sabemos donde nos encontramos...",
+					"location": "top",
 					"next": {
 						"initial-zoom": []
 					}
