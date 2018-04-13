@@ -9,7 +9,8 @@
 			"hide": false,
 			"show-flag": true,
 			"show-logos": false,
-                        "show-banner-izq": false
+                        "show-banner-izq": false,
+                        "show-banner-der": false,
 		},
 		"info-dialog": {
 			"open-in-center": false
@@ -33,6 +34,9 @@
 	"footnote" : {
 		"_enabled": false
 	},
+        "geoexplorer-reader" : {
+                "_enabled": false
+        },
 	"tour": {
 		"tour": {
 			"steps": [

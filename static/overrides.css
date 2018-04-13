@@ -8,6 +8,7 @@
   top: 15px;
   left: 400px;
   font-size: 25px;
+  color: #17b94a;
 }
 
 /*Cambio de los banner*/
@@ -27,7 +28,22 @@
   height: 69px;
   width: auto;
   z-index: 1100;
-  background: url(../static/img/flag.png) no-repeat 0 0;
+  background: url(../static/img/logoambiente.svg) no-repeat 0 0;
+  background-size: 330px 50px;
+}
+
+#banner {
+    height: 92px;
+    width: 100%;
+    background-color: rgba(255,255,255,.9);
+}
+
+#toolbar {  
+    background-color: #555555;
+    height: 50px;
+    z-index: 2000;
+    position: relative;
+    padding-right: 10px;
 }
 
 body {

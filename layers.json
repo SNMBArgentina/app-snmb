@@ -1,33 +1,6 @@
 {
     "wmsLayers": [
         {
-            "wmsName": "unredd:blue_marble",
-            "baseUrl": "http://rdc-snsf.org/diss_geoserver/wms",
-            "id": "blue-marble",
-            "visible": true
-        },
-        {
-            "sourceLabel": "",
-            "sourceLink": "",
-            "baseUrl": "/bosques_umsef_db/wms",
-            "label": "Cantidad de Incendios por año",
-            "visible": true,
-            "legend": "auto",
-            "imageFormat": "image/png8",
-            "id": "provincias_incendios",
-            "wmsName": "bosques_umsef_db:provincias_incendios",
-            "queryType": "wms"
-        },
-        {
-            "baseUrl": "/gwc/service/wms",
-            "label": "Límites nacionales",
-            "visible": true,
-            "imageFormat": "image/png8",
-            "id": "limites_nacionales",
-            "wmsName": "bosques_umsef_db:limites_nacionales_3857",
-            "legend": "lim_nac.png"
-        },
-        {
             "queryType": "wms",
             "baseUrl": "http://ide.siia.gov.ar/geosever/wms",
             "label": "DEM SRTM 500X500 V1",
@@ -36,67 +9,6 @@
             "id": "dem",
             "wmsName": "siia:MOSAICO_ARGENTINA_500x500_V1",
             "legend": "dem.png"
-        },
-        {
-            "queryFieldAliases": [
-                "gid",
-                "pueblo"
-            ],
-            "queryFieldNames": [
-                "gid",
-                "pueblo"
-            ],
-            "baseUrl": "http://www.mapaeducativo.edu.ar/geoserver/men/wms",
-            "label": "Distribucion de la población indígena",
-            "visible": true,
-            "legend": "auto",
-            "imageFormat": "image/png8",
-            "queryUrl": "http://www.mapaeducativo.edu.ar/geoserver/men/wfs",
-            "id": "p_originarios",
-            "wmsName": "men:poligonos_pueblos_indigenas",
-            "queryGeomFieldName": "the_geom",
-            "queryType": "wfs"
-        },
-        {
-            "queryFieldAliases": [
-                "gid",
-                "pueblo",
-                "detalle"
-            ],
-            "queryType": "wfs",
-            "queryFieldNames": [
-                "gid",
-                "pueblo",
-                "detalle_pu"
-            ],
-            "baseUrl": "http://www.mapaeducativo.edu.ar/geoserver/men/wms",
-            "label": "Comunidades indígenas actuales",
-            "visible": true,
-            "queryUrl": "http://www.mapaeducativo.edu.ar/geoserver/men/wfs",
-            "id": "p_indigenas_inai",
-            "wmsName": "men:pueblos_indigenas_inai",
-            "queryGeomFieldName": "the_geom",
-            "legend": "auto"
-        },
-        {
-            "queryFieldAliases": [
-                "stats_code",
-                "Regiones"
-            ],
-            "queryFieldNames": [
-                "stats_code",
-                "regiones"
-            ],
-            "baseUrl": "/gwc/service/wms",
-            "label": "Regiones Forestales",
-            "visible": true,
-            "legend": "regfor.png",
-            "imageFormat": "image/png8",
-            "queryUrl": "http://snmb.ambiente.gob.ar/geo-server/wfs",
-            "id": "map-regfor",
-            "wmsName": "bosques_umsef_db:regfor2014_3857",
-            "queryGeomFieldName": "geom",
-            "queryType": "wfs"
         },
         {
             "baseUrl": "/gwc/service/wms",
@@ -115,16 +27,6 @@
             "id": "selvamis_t",
             "wmsName": "bosques_umsef_db:smi_98-02_umsef_3857",
             "legend": "leyenda_niv1.png"
-        },
-        {
-            "queryType": "wms",
-            "baseUrl": "http://ide.siia.gov.ar/geoserver/wms",
-            "label": "Bosques cultivados de la Rep. Argentina",
-            "visible": true,
-            "imageFormat": "image/png8",
-            "id": "bosquescultivados",
-            "wmsName": "siia:plantaciones_forestales",
-            "legend": "pl_forestales.png"
         },
         {
             "sourceLabel": "Direccion de Produccion Forestal - MAGyP",
@@ -151,16 +53,6 @@
             "queryType": "wms"
         },
         {
-            "queryType": "wms",
-            "baseUrl": "http://wms.ign.gob.ar/geoserver/wms",
-            "label": "ARGENMAP",
-            "visible": true,
-            "imageFormat": "image/png8",
-            "id": "capabaseargenmap",
-            "wmsName": "capabaseargenmap",
-            "legend": "leyenda_jadu.png"
-        },
-        {
             "baseUrl": "/gwc/service/wms",
             "legend": "leyenda_niv1.png",
             "visible": true,
@@ -177,14 +69,6 @@
             "wmsName": "bosques_umsef_db:pch9806_3857",
             "label": "Parque Chaqueño",
             "id": "map-pchbn06_3857"
-        },
-        {
-            "baseUrl": "/bosques_umsef_db/wms",
-            "legend": "auto",
-            "visible": true,
-            "wmsName": "bosques_umsef_db:stbptf9814_3857_t",
-            "label": "Pérdida TF - Selva Tucumano Boliviana - Yungas",
-            "id": "map-stbptf9814_3857"
         },
         {
             "baseUrl": "/gwc/service/wms",
@@ -213,81 +97,840 @@
             "legend": "leyenda_niv1.png"
         },
         {
-            "id": "map-pchptf9814_3857",
-            "wmsName": "bosques_umsef_db:pchptf9814_3857",
-            "label": "Parque Chaqueño - Pérdida TF",
-            "baseUrl": "/bosques_umsef_db/wms",
+            "id": "unique-id-1520345504583",
+            "type": "wms",
             "legend": "auto",
-            "visible": true
-        },
-        {
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:areas_protegidas_nacionales",
+            "imageFormat": "image/png",
             "queryType": "wms",
-            "baseUrl": "/bosques_umsef_db/wms",
-            "label": "Límites departamentales",
-            "visible": true,
-            "imageFormat": "image/png8",
-            "id": "map-limites_depart_ign",
-            "wmsName": "bosques_umsef_db:limites_deptos_ign_3857",
-            "legend": "lim_dep.png"
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
         },
         {
-            "queryFieldAliases": [
-                "Nombre",
-                "Codigo"
-            ],
-            "queryFieldNames": [
-                "nprov",
-                "cod_indec"
-            ],
-            "baseUrl": "/gwc/service/wms",
-            "label": "Límites provinciales",
+            "id": "unique-id-1520345601501",
+            "type": "wms",
+            "legend": "auto",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
             "visible": true,
-            "legend": "lim_prov.png",
-            "imageFormat": "image/png8",
-            "queryUrl": "http://snmb.ambiente.gob.ar/geo-server/wfs",
-            "id": "limites_provinciales",
-            "wmsName": "bosques_umsef_db:limites_provinciales",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:areas_protegidas_provinciales",
+            "imageFormat": "image/png",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1520534132952",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:limite_politico_administrativo",
+            "imageFormat": "image/png",
+            "queryType": "wms",
+            "queryUrl": "",
             "queryGeomFieldName": "geom",
-            "queryType": "wfs"
+            "queryFieldNames": [
+                "LIMITE"
+            ],
+            "queryFieldAliases": [
+                "Tipo de límite"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "unique-id-1520344804542",
+            "type": "wms",
+            "legend": "auto",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:provincias",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "geom",
+            "queryFieldNames": [
+                "NOMPROV"
+            ],
+            "queryFieldAliases": [
+                "Provincia"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "unique-id-1520534392895",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:departamentos",
+            "imageFormat": "image/png",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "geom",
+            "queryFieldNames": [
+                "NOMPROV",
+                "NOMDEP"
+            ],
+            "queryFieldAliases": [
+                "Provincia",
+                "Departamento"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "modis",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://rdc-snsf.org/diss_geoserver/wms",
+            "wmsName": "unredd:blue_marble",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1520610491279",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://wms.ign.gob.ar/geoserver/gwc/service/wms",
+            "wmsName": "capabaseargenmap",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1520613180104",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:regiones_forestales",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "geom",
+            "queryFieldNames": [
+                "regiones"
+            ],
+            "queryFieldAliases": [
+                "Región"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "distritos_espinal",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:distritos_espinal",
+            "imageFormat": "image/png",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "geom",
+            "queryFieldNames": [
+                "regiones",
+                "subreg"
+            ],
+            "queryFieldAliases": [
+                "Región",
+                "Distrito"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "subreg_pch",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:subregiones_parque_chaqueno",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "geom",
+            "queryFieldNames": [
+                "regiones",
+                "subreg"
+            ],
+            "queryFieldAliases": [
+                "Región",
+                "Subregión"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "reservas_biosfera",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:reservas_biosfera",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "geom",
+            "queryFieldNames": [
+                "nombre"
+            ],
+            "queryFieldAliases": [
+                "Nombre"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "unique-id-1520621634220",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:sitios_ramsar",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "geom",
+            "queryFieldNames": [
+                "nombre"
+            ],
+            "queryFieldAliases": [
+                "Nombre"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "macizos_ftales",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:forestacion_macizos",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "cortinas_ftales",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:forestacion_cortinas",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1521077450028",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:Planes22agosto2017_conservacion",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1521113100443",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:cant_incen_prov_93_16",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1521113836634",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:cant_incen_depto_93_16",
+            "imageFormat": "image/png",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1521114619371",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pfnm_04_16",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "OTBN Buenos Aires",
+            "type": "wms",
+            "label": "OTBN Buenos Aires",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_ba_38570",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_cd",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_cd_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_ch",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_ch_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_cm",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_cm_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_cu",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_cu_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_cs",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_cs_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_er",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_er_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_fs",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_fs_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_jj",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_jj_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1523544353937",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_lp_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_lr",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_lr_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_ms",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_ms_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_mz",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_mz_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_nq",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_nq_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_rn",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_rn_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_sc",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_sc_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_se",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_se_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_sf",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_sf_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_sj",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_sj_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_sl",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_sl_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_st",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_st_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_tc",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_tc_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "otbn_tf",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:otbn_tf_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "planes_conserv",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:Planes22agosto2017_conservacion",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "planes_form",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:Planes22agosto2017_formulacion",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "planes_mane",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:Planes22agosto2017_manejo",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
         }
     ],
     "portalLayers": [
-        {
-            "active": true,
-            "layers": [
-                "blue-marble"
-            ],
-            "id": "blue-marble",
-            "infoFile": "blue_marble.html",
-            "label": "Mosaico imágenes MODIS"
-        },
-        {
-            "active": false,
-            "layers": [
-                "bosquescultivados"
-            ],
-            "id": "bosquescultivados",
-            "infoFile": "metadato.html",
-            "label": "Plantaciones forestales"
-        },
-        {
-            "active": false,
-            "layers": [
-                "p_originarios"
-            ],
-            "id": "p_originarios",
-            "infoFile": "p_indigenas.html",
-            "label": "Distribución de la población indígena "
-        },
-        {
-            "active": false,
-            "layers": [
-                "p_indigenas_inai"
-            ],
-            "id": "p_indigenas_inai",
-            "infoFile": "p_indigenas.html",
-            "label": "Comunidades indígenas actuales"
-        },
         {
             "active": false,
             "layers": [
@@ -327,66 +970,12 @@
             "label": "Límites departamentales"
         },
         {
-            "active": false,
-            "layers": [
-                "limites_nacionales"
-            ],
-            "id": "limites_nacionales",
-            "infoFile": "ign.html",
-            "label": "Límites nacionales"
-        },
-        {
-            "active": false,
-            "layers": [
-                "capabaseargenmap"
-            ],
-            "id": "capabaseargenmap",
-            "infoFile": "capabase.html",
-            "label": " Vectorial Argenmap"
-        },
-        {
-            "active": true,
-            "layers": [
-                "limites_provinciales"
-            ],
-            "id": "limites_provinciales",
-            "infoFile": "ign.html",
-            "label": "Límites provinciales"
-        },
-        {
-            "layers": [
-                "provincias_incendios"
-            ],
-            "timeInstances": "2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z",
-            "label": "Incendios por provincia",
-            "timeStyles": "cantidad_incendios_2012,cantidad_incendios_2013",
-            "infoFile": "metadata_estadisticas_incendios_forestales.html",
-            "active": false,
-            "id": "provincias_incendios"
-        },
-        {
-            "layers": [
-                "map-regfor"
-            ],
-            "id": "regfor",
-            "infoFile": "metadata_regfor_umsef.html",
-            "label": "Regiones Forestales"
-        },
-        {
             "layers": [
                 "map-bap"
             ],
             "id": "bap",
             "infoFile": "metadata_bap00_bn_pinbn.html",
             "label": "Bosque Andino Patagónico (2000)"
-        },
-        {
-            "layers": [
-                "map-limites_depart_ign"
-            ],
-            "id": "limites_depart_ign",
-            "infoFile": "ign.html",
-            "label": "Límites departamentales"
         },
         {
             "layers": [
@@ -407,15 +996,6 @@
             "label": "Parque Chaqueño",
             "infoFile": "metadata_pch9806_bn_umsef.html",
             "id": "pchbn06_3857"
-        },
-        {
-            "layers": [
-                "map-stbptf9814_3857"
-            ],
-            "timeInstances": "2002-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z",
-            "id": "stbptf9814_3857",
-            "infoFile": "metadata_stb9814_ptf.html",
-            "label": "Selva Tucumano Boliviana - Yungas  Pérdida TF"
         },
         {
             "layers": [
@@ -443,40 +1023,639 @@
         },
         {
             "layers": [
-                "map-pchptf9814_3857"
+                "unique-id-1520345504583"
             ],
-            "id": "pchptf9814_3857",
-            "timeInstances": "2002-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z",
-            "infoFile": "metadata_pch9814_ptf.html",
-            "label": "Parque Chaqueño - Pérdida de TF"
+            "id": "unique-id-1520345504583",
+            "label": "Áreas protegidas nacionales",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false,
+            "inlineLegendUrl": "auto"
+        },
+        {
+            "layers": [
+                "unique-id-1520345601501"
+            ],
+            "id": "unique-id-1520345601501",
+            "label": "Áreas protegidas provinciales",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false,
+            "inlineLegendUrl": "auto"
+        },
+        {
+            "layers": [
+                "unique-id-1520534132952"
+            ],
+            "id": "limitenacional",
+            "label": "Límites nacionales",
+            "infoFile": "ign.html",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1520344804542"
+            ],
+            "id": "unique-id-1520344804542",
+            "label": "Límites provinciales",
+            "infoFile": "ign.html",
+            "infoLink": "",
+            "inlineLegendUrl": "auto",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": true,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1520534392895"
+            ],
+            "id": "departamentos",
+            "label": "Límites departamentales",
+            "infoFile": "ign.html",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "modis"
+            ],
+            "id": "modis",
+            "label": "Mosaico imágenes MODIS",
+            "infoFile": "blue_marble.html",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1520610491279"
+            ],
+            "id": "argenmap6",
+            "label": "ArgenMap",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": true,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1520613180104"
+            ],
+            "id": "reg_ftal",
+            "label": "Regiones forestales",
+            "infoFile": "metadata_regfor_umsef.html",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "distritos_espinal"
+            ],
+            "id": "distritos_espinal",
+            "label": "Distritos del Espinal",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "subreg_pch"
+            ],
+            "id": "subreg_pch",
+            "label": "Subregiones Parque Chaqueño",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "reservas_biosfera"
+            ],
+            "id": "reservas_biosfera",
+            "label": "Reservas de biósfera",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1520621634220"
+            ],
+            "id": "sitio_ramsar",
+            "label": "Sitios Ramsar",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "macizos_ftales"
+            ],
+            "id": "unique-id-1521076972517",
+            "label": "Plantaciones fortestales",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "cortinas_ftales"
+            ],
+            "id": "unique-id-1521077123304",
+            "label": "Cortinas forestales",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1521077450028"
+            ],
+            "id": "unique-id-1521077450028",
+            "label": "Comunidades indígenas",
+            "infoFile": "",
+            "infoLink": "http://ideambiente.eliteconsulting.com.ar/geonetwork/srv/spa/catalog.search#/metadata/5d31765af1d90a0a344da85befbe098ffc1611af",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1521113100443"
+            ],
+            "id": "unique-id-1521113100443",
+            "label": "Cantidad incendios por provincia",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "1994-01-01T00:00:00.000Z,1994-01-01T00:00:00.000Z,1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "cant_incen_prov_93,cant_incen_prov_94,cant_incen_prov_95,cant_incen_prov_96,cant_incen_prov_97,cant_incen_prov_98,cant_incen_prov_99,cant_incen_prov_00,cant_incen_prov_01,cant_incen_prov_02,cant_incen_prov_03,cant_incen_prov_04,cant_incen_prov_05,cant_incen_prov_06,cant_incen_prov_07,cant_incen_prov_08,cant_incen_prov_09,cant_incen_prov_10,cant_incen_prov_11,cant_incen_prov_12,cant_incen_prov_13,cant_incen_prov_14,cant_incen_prov_15,cant_incen_prov_16",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1521113836634"
+            ],
+            "id": "unique-id-1521113836634",
+            "label": "Cantidad incendios por departamento",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "1994-01-01T00:00:00.000Z,1994-01-01T00:00:00.000Z,1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": " cant_incen_depto_93,cant_incen_depto_94,cant_incen_depto_95,cant_incen_depto_96,cant_incen_depto_97,cant_incen_depto_98,cant_incen_depto_99,cant_incen_depto_00,cant_incen_depto_01,cant_incen_depto_02,cant_incen_depto_03,cant_incen_depto_04,cant_incen_depto_05,cant_incen_depto_06,cant_incen_depto_07,cant_incen_depto_08,cant_incen_depto_09,cant_incen_depto_10,cant_incen_depto_11,cant_incen_depto_12,cant_incen_depto_13,cant_incen_depto_14,cant_incen_depto_15,cant_incen_depto_16",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1521114619371"
+            ],
+            "id": "unique-id-1521114619371",
+            "label": "Productos forestales no madereros",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "pfnm_04,pfnm_05,pfnm_06,pfnm_07,pfnm_08,pfnm_09,pfnm_10,pfnm_11,pfnm_12,pfnm_13,pfnm_14,pfnm_15,pfnm_16",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "OTBN Buenos Aires"
+            ],
+            "id": "otbn_ba",
+            "label": "OTBN Buenos Aires",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_cd"
+            ],
+            "id": "otbn_cd",
+            "label": "OTBN Córdoba",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_ch"
+            ],
+            "id": "otbn_ch",
+            "label": "OTBN Chaco",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_cm"
+            ],
+            "id": "otbn_cm",
+            "label": "OTBN Catamarca",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_cu"
+            ],
+            "id": "otbn_cu",
+            "label": "OTBN Chubut",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_cs"
+            ],
+            "id": "otbn_cs",
+            "label": "OTBN Corrientes",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_er"
+            ],
+            "id": "otbn_er",
+            "label": "OTBN Entre Ríos",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_fs"
+            ],
+            "id": "otbn_fs",
+            "label": "OTBN Formosa",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_jj"
+            ],
+            "id": "otbn_jj",
+            "label": "OTBN Jujuy",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1523544353937"
+            ],
+            "id": "otbn_lp",
+            "label": "OTBN La Pampa",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_lr"
+            ],
+            "id": "otbn_lr",
+            "label": "OTBN La Rioja",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_ms"
+            ],
+            "id": "otbn_ms",
+            "label": "OTBN Misiones",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_mz"
+            ],
+            "id": "otbn_mz",
+            "label": "OTBN Mendoza",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_nq"
+            ],
+            "id": "otbn_nq",
+            "label": "OTBN Neuquén",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_rn"
+            ],
+            "id": "otbn_rn",
+            "label": "OTBN Río Negro",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_sc"
+            ],
+            "id": "otbn_sc",
+            "label": "OTBN Santa Cruz",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_se"
+            ],
+            "id": "otbn_se",
+            "label": "OTBN Santiago del Estero",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_sf"
+            ],
+            "id": "otbn_sf",
+            "label": "OTBN Santa Fe",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_sj"
+            ],
+            "id": "otbn_sj",
+            "label": "OTBN San Juan",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_sl"
+            ],
+            "id": "otbn_sl",
+            "label": "OTBN San Luis",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_st"
+            ],
+            "id": "otbn_st",
+            "label": "OTBN Salta",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_tc"
+            ],
+            "id": "otbn_tc",
+            "label": "OTBN Tucumán",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "otbn_tf"
+            ],
+            "id": "otbn_tf",
+            "label": "OTBN Tierra del Fuego",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "planes_conserv"
+            ],
+            "id": "planes_conserv",
+            "label": "Planes de Conservación",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "planes_form"
+            ],
+            "id": "planes_form",
+            "label": "Planes de Formulación",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "planes_mane"
+            ],
+            "id": "planes_mane",
+            "label": "Planes de Manejo",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
         }
     ],
     "groups": [
         {
             "items": [
-                {
-                    "items": [
-                        "blue-marble"
-                    ],
-                    "id": "innerbase",
-                    "label": "Mosaico MODIS"
-                }
+                "departamentos",
+                "unique-id-1520344804542",
+                "limitenacional"
             ],
-            "id": "base",
-            "label": "Imágenes satelitales"
+            "id": "admin",
+            "label": "Áreas administrativas"
         },
         {
             "items": [
-                "p_originarios",
-                "p_indigenas_inai"
-            ],
-            "id": "salvaguardas",
-            "infoFile": "salvaguardas.html",
-            "label": "Salvaguardas"
-        },
-        {
-            "items": [
-                "regfor"
+                "reg_ftal",
+                "distritos_espinal",
+                "subreg_pch"
             ],
             "id": "Regiones_forestales",
             "infoFile": "regfor.html",
@@ -499,40 +1678,68 @@
                 },
                 {
                     "items": [
-                        "bosquescultivados"
+                        "unique-id-1521076972517",
+                        "unique-id-1521077123304"
                     ],
                     "id": "innerbosquescultivados",
-                    "label": "Bosques Cultivados"
-                },
-                {
-                    "items": [
-                        {
-                            "items": [
-                                "stbptf9814_3857",
-                                "pchptf9814_3857"
-                            ],
-                            "id": "innerdeforestacion",
-                            "label": "Pérdida de TF"
-                        },
-                        {
-                            "items": [],
-                            "id": "innerot",
-                            "label": "Pérdida de OTF"
-                        }
-                    ],
-                    "id": "innerprocesosdecambiobosque",
-                    "label": "Procesos de Cambio en el Bosque"
+                    "label": "Bosque cultivado",
+                    "infoFile": "",
+                    "infoLink": ""
                 }
             ],
             "id": "area_bosques",
             "infoFile": "bn_pc.docx.html",
-            "label": "Áreas de Bosque/Procesos de Cambio"
+            "label": "Áreas de Bosque",
+            "infoLink": ""
+        },
+        {
+            "items": [],
+            "id": "procesoscambio",
+            "label": "Procesos de cambio",
+            "infoFile": "",
+            "infoLink": ""
+        },
+        {
+            "items": [
+                "otbn_ba",
+                "otbn_cd",
+                "otbn_ch",
+                "otbn_cm",
+                "otbn_cu",
+                "otbn_cs",
+                "otbn_er",
+                "otbn_fs",
+                "otbn_jj",
+                "otbn_lp",
+                "otbn_lr",
+                "otbn_ms",
+                "otbn_mz",
+                "otbn_nq",
+                "otbn_rn",
+                "otbn_sc",
+                "otbn_se",
+                "otbn_sf",
+                "otbn_sj",
+                "otbn_sl",
+                "otbn_st",
+                "otbn_tc",
+                "otbn_tf",
+                "planes_conserv",
+                "planes_form",
+                "planes_mane"
+            ],
+            "id": "leybosques",
+            "label": "Ley 26.331",
+            "infoFile": "",
+            "infoLink": ""
         },
         {
             "items": [
                 {
                     "items": [
-                        "provincias_incendios"
+                        "unique-id-1521113100443",
+                        "unique-id-1521113836634",
+                        "unique-id-1521114619371"
                     ],
                     "id": "provincias_incendios",
                     "label": "Incendios Forestales"
@@ -543,75 +1750,69 @@
         },
         {
             "items": [
-                {
-                    "items": [],
-                    "id": "innerregistroredd",
-                    "label": "Proyectos REDD+"
-                }
+                "unique-id-1521077450028"
             ],
-            "id": "registroredd",
-            "infoFile": "registro_redd.html",
-            "label": "Registro REDD+"
+            "id": "salvaguardas",
+            "infoFile": "salvaguardas.html",
+            "label": "Beneficios sociales y ambientales",
+            "infoLink": ""
         },
         {
             "items": [
-                "limites_depart_ign",
-                "limites_provinciales",
-                "limites_nacionales"
-            ],
-            "id": "admin",
-            "label": "Áreas administrativas"
-        },
-        {
-            "items": [
-                {
-                    "items": [],
-                    "id": "innerordenamientoterritorial",
-                    "label": "Ordenamiento Territorial de Bosques Nativos"
-                },
-                {
-                    "items": [],
-                    "id": "innerareasprotegidas",
-                    "label": "Áreas Protegidas"
-                },
-                {
-                    "items": [],
-                    "id": "innerparcelasinventario",
-                    "label": "Parcelas inventarios"
-                },
                 {
                     "items": [
-                        "capabaseargenmap"
+                        "unique-id-1520345504583",
+                        "unique-id-1520345601501",
+                        "reservas_biosfera",
+                        "sitio_ramsar"
                     ],
-                    "id": "Base_Argenmap",
-                    "label": "Vectorial Argenmap"
-                },
-                {
-                    "items": [],
-                    "id": "innercitespalosanto",
-                    "label": "Distribución de Especies Forstales CITES"
-                },
-                {
-                    "items": [],
-                    "id": "innerbosquemodelo",
-                    "label": "Bosque Modelo"
-                },
-                {
-                    "items": [],
-                    "id": "innerdem",
-                    "label": "Modelo de elevacion digital"
+                    "id": "innerareasprotegidas",
+                    "label": "Áreas naturales protegidas",
+                    "infoFile": "",
+                    "infoLink": ""
                 }
             ],
             "id": "infoaxiliar",
             "label": "Información Auxiliar"
         },
         {
-            "items": [],
-            "id": "unique-id-1513773399024",
-            "label": "Producción Forestales",
+            "items": [
+                "modis",
+                "argenmap6"
+            ],
+            "id": "base",
+            "label": "Capa base",
             "infoFile": "",
+            "infoLink": ""
+        },
+        {
+            "items": [],
+            "id": "area_bosques",
+            "label": "Áreas de bosque",
+            "infoFile": "bn_pc.docx.html",
+            "infoLink": ""
+        },
+        {
+            "items": [],
+            "id": "Regiones_forestales",
+            "label": "Regiones forestales",
+            "infoFile": "regfor.html",
+            "infoLink": ""
+        },
+        {
+            "items": [],
+            "id": "estadisticas",
+            "label": "Estadísticas forestales",
+            "infoFile": "",
+            "infoLink": ""
+        },
+        {
+            "items": [],
+            "id": "area_bosques",
+            "label": "Áreas de Bosque",
+            "infoFile": "bn_pc.docx.html",
             "infoLink": ""
         }
     ],
-    "default-server": "http://snmb.ambiente.gob.ar/geo-server/ows"
+    "default-server": "http://snmb.eliteconsulting.com.ar/geoserver/ows"
 }
