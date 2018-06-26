@@ -38,6 +38,7 @@
                 "_enabled": false
         },
 	"tour": {
+                "_enabled": false,
 		"tour": {
 			"steps": [
 				{

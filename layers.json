@@ -11,22 +11,52 @@
             "legend": "dem.png"
         },
         {
-            "baseUrl": "/gwc/service/wms",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "label": "Bosque Andino Patagónico",
             "visible": true,
             "legend": "leyenda_niv1.png",
             "imageFormat": "image/png8",
-            "wmsName": "bosques_umsef_db:bap_pinb_umsef_3857",
-            "id": "map-bap"
+            "wmsName": "bosques:bap_pinb_umsef_3857",
+            "id": "map-bap",
+            "type": "wms",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "ley_niv1"
+            ],
+            "queryFieldAliases": [
+                "Clase de cobertura año 2000"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
         },
         {
-            "baseUrl": "/gwc/service/wms",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "label": "Selva Misionera - Selva Paranaense",
             "visible": true,
             "imageFormat": "image/png8",
             "id": "selvamis_t",
-            "wmsName": "bosques_umsef_db:smi_98-02_umsef_3857",
-            "legend": "leyenda_niv1.png"
+            "wmsName": "bosques:smi_98-02_umsef_3857",
+            "legend": "leyenda_niv1.png",
+            "type": "wms",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "ley_n1",
+                "fecha_anio"
+            ],
+            "queryFieldAliases": [
+                "Clase de cobertura",
+                "Año"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
         },
         {
             "sourceLabel": "Direccion de Produccion Forestal - MAGyP",
@@ -53,48 +83,123 @@
             "queryType": "wms"
         },
         {
-            "baseUrl": "/gwc/service/wms",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "legend": "leyenda_niv1.png",
             "visible": true,
             "imageFormat": "image/png8",
-            "wmsName": "bosques_umsef_db:stbbn06",
+            "wmsName": "bosques:stbbn06",
             "label": "Selva Tucumano Boliviana - Yungas",
-            "id": "map-stb_t"
+            "id": "map-stb_t",
+            "type": "wms",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "ley_n1",
+                "anio"
+            ],
+            "queryFieldAliases": [
+                "Clase de cobertura",
+                "Año"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
         },
         {
-            "baseUrl": "/bosques_umsef_db/wms",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "legend": "leyenda_niv1.png",
             "visible": true,
             "imageFormat": "image/png8",
-            "wmsName": "bosques_umsef_db:pch9806_3857",
+            "wmsName": "bosques:pch9806_3857",
             "label": "Parque Chaqueño",
-            "id": "map-pchbn06_3857"
+            "id": "map-pchbn06_3857",
+            "type": "wms",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "ley_n1",
+                "anio"
+            ],
+            "queryFieldAliases": [
+                "Clase de cobertura",
+                "Año"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
         },
         {
-            "baseUrl": "/gwc/service/wms",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "label": "Espinal - Distrito del Ñandubay (2006)",
             "visible": true,
             "imageFormat": "image/png8",
             "legend": "leyenda_niv1.png",
-            "wmsName": "bosques_umsef_db:espnan06_3857",
-            "id": "map-espnan06"
+            "wmsName": "bosques:espnan06_3857",
+            "id": "map-espnan06",
+            "type": "wms",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "ley_n1"
+            ],
+            "queryFieldAliases": [
+                "Clase de cobertura año 2006"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
         },
         {
-            "baseUrl": "/gwc/service/wms",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "label": "Espinal - Distrito del Caldén (2006)",
             "visible": true,
             "id": "map-espcal06",
-            "wmsName": "bosques_umsef_db:espcal06_3857",
-            "legend": "leyenda_niv1.png"
+            "wmsName": "bosques:espcal06_3857",
+            "legend": "leyenda_niv1.png",
+            "type": "wms",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "ley_n1"
+            ],
+            "queryFieldAliases": [
+                "Clase de cobertura año 2006"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
         },
         {
-            "baseUrl": "/gwc/service/wms",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "id": "map-mon98",
             "visible": true,
             "imageFormat": "image/png8",
-            "wmsName": "bosques_umsef_db:mon98pinbn3857",
+            "wmsName": "bosques:mon98pinbn3857",
             "label": "Monte (1998)",
-            "legend": "leyenda_niv1.png"
+            "legend": "leyenda_niv1.png",
+            "type": "wms",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "ley_n1"
+            ],
+            "queryFieldAliases": [
+                "Clase de cobertura año 1998"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
         },
         {
             "id": "unique-id-1520345504583",
@@ -106,14 +211,22 @@
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "wmsName": "bosques:areas_protegidas_nacionales",
-            "imageFormat": "image/png",
+            "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "rotulo",
+                "categoria",
+                "uicn_cat"
+            ],
+            "queryFieldAliases": [
+                "Nombre",
+                "Categoría",
+                "Categoría UICN"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "unique-id-1520345601501",
@@ -125,14 +238,22 @@
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "wmsName": "bosques:areas_protegidas_provinciales",
-            "imageFormat": "image/png",
+            "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "nombre",
+                "categoria",
+                "categ_uicn"
+            ],
+            "queryFieldAliases": [
+                "Nombre",
+                "Categoría",
+                "Categoría UICN"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "unique-id-1520534132952",
@@ -148,7 +269,7 @@
             "queryUrl": "",
             "queryGeomFieldName": "geom",
             "queryFieldNames": [
-                "LIMITE"
+                "limite"
             ],
             "queryFieldAliases": [
                 "Tipo de límite"
@@ -171,7 +292,7 @@
             "queryUrl": "",
             "queryGeomFieldName": "geom",
             "queryFieldNames": [
-                "NOMPROV"
+                "nomprov"
             ],
             "queryFieldAliases": [
                 "Provincia"
@@ -193,8 +314,8 @@
             "queryUrl": "",
             "queryGeomFieldName": "geom",
             "queryFieldNames": [
-                "NOMPROV",
-                "NOMDEP"
+                "nomprov",
+                "nomdep"
             ],
             "queryFieldAliases": [
                 "Provincia",
@@ -323,10 +444,16 @@
             "queryUrl": "",
             "queryGeomFieldName": "geom",
             "queryFieldNames": [
-                "nombre"
+                "nombre",
+                "provincia",
+                "superficie",
+                "a_creacion"
             ],
             "queryFieldAliases": [
-                "Nombre"
+                "Nombre",
+                "Provincia",
+                "Área (ha)",
+                "Año creación"
             ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": true
@@ -345,10 +472,16 @@
             "queryUrl": "",
             "queryGeomFieldName": "geom",
             "queryFieldNames": [
-                "nombre"
+                "nombre",
+                "provincia",
+                "superficie",
+                "creacion"
             ],
             "queryFieldAliases": [
-                "Nombre"
+                "Nombre",
+                "Provincia",
+                "Área (ha)",
+                "Año creación"
             ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": true
@@ -366,8 +499,12 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "genero"
+            ],
+            "queryFieldAliases": [
+                "Género"
+            ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
         },
@@ -384,8 +521,12 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "genero"
+            ],
+            "queryFieldAliases": [
+                "Género"
+            ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
         },
@@ -397,15 +538,21 @@
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:Planes22agosto2017_conservacion",
+            "wmsName": "bosques:comunidades_indigenas",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "comunidad",
+                "pueblo"
+            ],
+            "queryFieldAliases": [
+                "Comunidad",
+                "Pueblo"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "unique-id-1521113100443",
@@ -420,10 +567,18 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryFieldNames": [
+                "NOMPROV",
+                "cant_tot",
+                "ANIO_ETIQ"
+            ],
+            "queryFieldAliases": [
+                "Provincia",
+                "Cantidad incendios",
+                "Año"
+            ],
+            "queryTimeFieldName": "anio",
+            "queryHighlightBounds": true
         },
         {
             "id": "unique-id-1521113836634",
@@ -434,30 +589,18 @@
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
             "wmsName": "bosques:cant_incen_depto_93_16",
-            "imageFormat": "image/png",
-            "queryType": "wms",
-            "queryUrl": "",
-            "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": false
-        },
-        {
-            "id": "unique-id-1521114619371",
-            "type": "wms",
-            "label": "",
-            "sourceLink": "",
-            "sourceLabel": "",
-            "visible": true,
-            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:pfnm_04_16",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "cant_tot",
+                "ANIO_ETIQ"
+            ],
+            "queryFieldAliases": [
+                "N° total",
+                "Año"
+            ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
         },
@@ -474,10 +617,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_cd",
@@ -492,10 +645,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_ch",
@@ -510,10 +673,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_cm",
@@ -528,10 +701,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_cu",
@@ -546,10 +729,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_cs",
@@ -564,10 +757,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_er",
@@ -582,10 +785,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_fs",
@@ -600,10 +813,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_jj",
@@ -618,10 +841,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "unique-id-1523544353937",
@@ -636,10 +869,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_lr",
@@ -654,10 +897,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_ms",
@@ -672,10 +925,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_mz",
@@ -690,10 +953,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_nq",
@@ -708,10 +981,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_rn",
@@ -726,10 +1009,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_sc",
@@ -744,10 +1037,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_se",
@@ -762,10 +1065,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_sf",
@@ -780,10 +1093,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_sj",
@@ -798,10 +1121,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_sl",
@@ -816,10 +1149,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_st",
@@ -834,10 +1177,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_tc",
@@ -852,10 +1205,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "otbn_tf",
@@ -870,10 +1233,20 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
+            ],
+            "queryFieldAliases": [
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "planes_conserv",
@@ -888,10 +1261,24 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "provincia",
+                "dpto",
+                "categorias",
+                "suppredio",
+                "supplan",
+                "estilo"
+            ],
+            "queryFieldAliases": [
+                "Provincia",
+                "Departamento",
+                "Categoría OTBN",
+                "Área predio (ha)",
+                "Área plan (ha)",
+                "Año plan"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "planes_form",
@@ -906,10 +1293,24 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
+            "queryFieldNames": [
+                "provincia",
+                "dpto",
+                "categorias",
+                "suppredio",
+                "supplan",
+                "estilo"
+            ],
+            "queryFieldAliases": [
+                "Provincia",
+                "Departamento",
+                "Categoría OTBN",
+                "Área predio (ha)",
+                "Área plan (ha)",
+                "Año plan"
+            ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": true
         },
         {
             "id": "planes_mane",
@@ -924,8 +1325,356 @@
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "provincia",
+                "dpto",
+                "categorias",
+                "suppredio",
+                "supplan",
+                "estilo"
+            ],
+            "queryFieldAliases": [
+                "Provincia",
+                "Departamento",
+                "Categoría OTBN",
+                "Área predio (ha)",
+                "Área plan (ha)",
+                "Año plan"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "sup_incen_depto",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:sup_incen_bn_depto_93_16",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "bn",
+                "ANIO_ETIQ"
+            ],
+            "queryFieldAliases": [
+                "Total (ha)",
+                "Año"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "sup_incen_prov",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:sup_incen_bn_prov_93_16",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "bn",
+                "ANIO_ETIQ"
+            ],
+            "queryFieldAliases": [
+                "Total (ha)",
+                "Año"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "prod_ftales_prov",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:prod_ftales_prov_94_15",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "pfm_tot",
+                "ANIO_ETIQ"
+            ],
+            "queryFieldAliases": [
+                "Total (tn)",
+                "Año"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "prod_ftal_depto_02_15",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:prod_ftales_depto_02_15",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "pf_tot",
+                "ANIO_ETIQ"
+            ],
+            "queryFieldAliases": [
+                "Total (tn)",
+                "Año"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pfnm_prov04_16",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pfnm_04_16",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "pfnm_tot",
+                "ANIO_ETIQ"
+            ],
+            "queryFieldAliases": [
+                "Total (tn)",
+                "Año"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pueblos_orig",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pueblos_originarios_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "PUEBLO"
+            ],
+            "queryFieldAliases": [
+                "Pueblo"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "unique-id-1524835809497",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:smi_ptf_1998_2016",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
             "queryFieldNames": [],
             "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "stb_ptf_98-16",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:stb_ptf_1998_2016_3857t0",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1525181346224",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:esp_ptf_1998_2016_3857t",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "smi_potf_1998_2016",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:smi_potf_1998_2016",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "stb_potf_1998_2016",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:stb_potf_1998_2016",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "spp_ftales_cites",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:spp_ftales_cites",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "n_spp",
+                "n_comun"
+            ],
+            "queryFieldAliases": [
+                "Nombre científico",
+                "Nombre común"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": true
+        },
+        {
+            "id": "esp_potf_1998_2016",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:esp_potf_1998_2016_3857t",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pch_ptf_06-16",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pch_ptf_2006_2016_3857t",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pch_potf_06-16",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pch_potf_2006_2016_3857t",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "subreg_delta",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:subregiones_delta_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "REGIONES",
+                "SUBREG"
+            ],
+            "queryFieldAliases": [
+                "Región",
+                "Subregión"
+            ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
         }
@@ -949,7 +1698,10 @@
             "label": "Selva Misionera - Selva Paranaense",
             "infoFile": "metadata_smi9802_bn_umsef.html",
             "active": false,
-            "id": "selvamis_t"
+            "id": "selvamis_t",
+            "infoLink": "",
+            "timeStyles": "",
+            "date-format": ""
         },
         {
             "active": false,
@@ -975,7 +1727,13 @@
             ],
             "id": "bap",
             "infoFile": "metadata_bap00_bn_pinbn.html",
-            "label": "Bosque Andino Patagónico (2000)"
+            "label": "Bosque Andino Patagónico (2000)",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
         },
         {
             "layers": [
@@ -985,7 +1743,11 @@
             "timeInstances": "1998-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z",
             "label": "Selva Tucumano Boliviana - Yungas",
             "infoFile": "metadata_stb9806_bn_umsef.html",
-            "id": "stb_t"
+            "id": "stb_t",
+            "infoLink": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false
         },
         {
             "layers": [
@@ -995,7 +1757,11 @@
             "timeInstances": "1998-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z",
             "label": "Parque Chaqueño",
             "infoFile": "metadata_pch9806_bn_umsef.html",
-            "id": "pchbn06_3857"
+            "id": "pchbn06_3857",
+            "infoLink": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false
         },
         {
             "layers": [
@@ -1003,7 +1769,13 @@
             ],
             "id": "espnan06",
             "infoFile": "metadata_espnan06_bn_pinbn.html",
-            "label": "Espinal - Distrito del Ñandubay (2006)"
+            "label": "Espinal - Distrito del Ñandubay (2006)",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
         },
         {
             "layers": [
@@ -1011,7 +1783,13 @@
             ],
             "id": "espcal06",
             "infoFile": "metadata_espcal06_bn_pinbn.html",
-            "label": "Espinal - Distrito del Caldén (2006)"
+            "label": "Espinal - Distrito del Caldén (2006)",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
         },
         {
             "layers": [
@@ -1019,7 +1797,13 @@
             ],
             "id": "mon98",
             "infoFile": "metadata_mon98_bn_pinbn.html",
-            "label": "Monte (1998)"
+            "label": "Monte (1998)",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
         },
         {
             "layers": [
@@ -1141,7 +1925,7 @@
                 "distritos_espinal"
             ],
             "id": "distritos_espinal",
-            "label": "Distritos del Espinal",
+            "label": "Espinal",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -1155,7 +1939,7 @@
                 "subreg_pch"
             ],
             "id": "subreg_pch",
-            "label": "Subregiones Parque Chaqueño",
+            "label": "Parque Chaqueño",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -1242,7 +2026,7 @@
             "label": "Cantidad incendios por provincia",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "1994-01-01T00:00:00.000Z,1994-01-01T00:00:00.000Z,1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeInstances": "1994-01-01T00:00:00.000Z,1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
             "timeStyles": "cant_incen_prov_93,cant_incen_prov_94,cant_incen_prov_95,cant_incen_prov_96,cant_incen_prov_97,cant_incen_prov_98,cant_incen_prov_99,cant_incen_prov_00,cant_incen_prov_01,cant_incen_prov_02,cant_incen_prov_03,cant_incen_prov_04,cant_incen_prov_05,cant_incen_prov_06,cant_incen_prov_07,cant_incen_prov_08,cant_incen_prov_09,cant_incen_prov_10,cant_incen_prov_11,cant_incen_prov_12,cant_incen_prov_13,cant_incen_prov_14,cant_incen_prov_15,cant_incen_prov_16",
             "date-format": "",
             "active": false,
@@ -1256,22 +2040,8 @@
             "label": "Cantidad incendios por departamento",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "1994-01-01T00:00:00.000Z,1994-01-01T00:00:00.000Z,1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeInstances": "1994-01-01T00:00:00.000Z,1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
             "timeStyles": " cant_incen_depto_93,cant_incen_depto_94,cant_incen_depto_95,cant_incen_depto_96,cant_incen_depto_97,cant_incen_depto_98,cant_incen_depto_99,cant_incen_depto_00,cant_incen_depto_01,cant_incen_depto_02,cant_incen_depto_03,cant_incen_depto_04,cant_incen_depto_05,cant_incen_depto_06,cant_incen_depto_07,cant_incen_depto_08,cant_incen_depto_09,cant_incen_depto_10,cant_incen_depto_11,cant_incen_depto_12,cant_incen_depto_13,cant_incen_depto_14,cant_incen_depto_15,cant_incen_depto_16",
-            "date-format": "",
-            "active": false,
-            "feedback": false
-        },
-        {
-            "layers": [
-                "unique-id-1521114619371"
-            ],
-            "id": "unique-id-1521114619371",
-            "label": "Productos forestales no madereros",
-            "infoFile": "",
-            "infoLink": "",
-            "timeInstances": "2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
-            "timeStyles": "pfnm_04,pfnm_05,pfnm_06,pfnm_07,pfnm_08,pfnm_09,pfnm_10,pfnm_11,pfnm_12,pfnm_13,pfnm_14,pfnm_15,pfnm_16",
             "date-format": "",
             "active": false,
             "feedback": false
@@ -1639,6 +2409,230 @@
             "date-format": "",
             "active": false,
             "feedback": false
+        },
+        {
+            "layers": [
+                "sup_incen_depto"
+            ],
+            "id": "sup_incen_depto",
+            "label": "Superficie incendios bosque nativo por departamento",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "1994-01-01T00:00:00.000Z,1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "sup_incen_bn_depto_93,sup_incen_bn_depto_94,sup_incen_bn_depto_95,sup_incen_bn_depto_96,sup_incen_bn_depto_97,sup_incen_bn_depto_98,sup_incen_bn_depto_99,sup_incen_bn_depto_00,sup_incen_bn_depto_01,sup_incen_bn_depto_02,sup_incen_bn_depto_03,sup_incen_bn_depto_04,sup_incen_bn_depto_05,sup_incen_bn_depto_06,sup_incen_bn_depto_07,sup_incen_bn_depto_08,sup_incen_bn_depto_09,sup_incen_bn_depto_10,sup_incen_bn_depto_11,sup_incen_bn_depto_12,sup_incen_bn_depto_13,sup_incen_bn_depto_14,sup_incen_bn_depto_15,sup_incen_bn_depto_16",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "sup_incen_prov"
+            ],
+            "id": "sup_incen_prov",
+            "label": "Superficie incendios bosque nativo por provincia",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "1994-01-01T00:00:00.000Z,1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "sup_incen_bn_prov_93,sup_incen_bn_prov_94,sup_incen_bn_prov_95,sup_incen_bn_prov_96,sup_incen_bn_prov_97,sup_incen_bn_prov_98,sup_incen_bn_prov_99,sup_incen_bn_prov_00,sup_incen_bn_prov_01,sup_incen_bn_prov_02,sup_incen_bn_prov_03,sup_incen_bn_prov_04,sup_incen_bn_prov_05,sup_incen_bn_prov_06,sup_incen_bn_prov_07,sup_incen_bn_prov_08,sup_incen_bn_prov_09,sup_incen_bn_prov_10,sup_incen_bn_prov_11,sup_incen_bn_prov_12,sup_incen_bn_prov_13,sup_incen_bn_prov_14,sup_incen_bn_prov_15,sup_incen_bn_prov_16",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "prod_ftales_prov"
+            ],
+            "id": "prod_ftales_prov",
+            "label": "Productos forestales madereros por provincia",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "1995-01-01T00:00:00.000Z,1996-01-01T00:00:00.000Z,1997-01-01T00:00:00.000Z,1998-01-01T00:00:00.000Z,1999-01-01T00:00:00.000Z,2000-01-01T00:00:00.000Z,2001-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z",
+            "timeStyles": "prod_ftales_prov_94,prod_ftales_prov_95,prod_ftales_prov_96,prod_ftales_prov_97,prod_ftales_prov_98,prod_ftales_prov_99,prod_ftales_prov_00,prod_ftales_prov_01,prod_ftales_prov_02,prod_ftales_prov_03,prod_ftales_prov_04,prod_ftales_prov_05,prod_ftales_prov_06,prod_ftales_prov_07,prod_ftales_prov_08,prod_ftales_prov_09,prod_ftales_prov_10,prod_ftales_prov_11,prod_ftales_prov_12,prod_ftales_prov_13,prod_ftales_prov_14,prod_ftales_prov_15",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "prod_ftal_depto_02_15"
+            ],
+            "id": "prod_ftal_depto_02_15",
+            "label": "Productos forestales madereros por departamento",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2004-01-01T00:00:00.000Z,2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z",
+            "timeStyles": "prod_ftales_depto_02,prod_ftales_depto_03,prod_ftales_depto_04,prod_ftales_depto_05,prod_ftales_depto_06,prod_ftales_depto_07,prod_ftales_depto_08,prod_ftales_depto_09,prod_ftales_depto_10,prod_ftales_depto_11,prod_ftales_depto_12,prod_ftales_depto_13,prod_ftales_depto_14,prod_ftales_depto_15",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "pfnm_prov04_16"
+            ],
+            "id": "pfnm_prov04_16",
+            "label": "Productos forestales no madereros por provincia",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "pfnm_04,pfnm_05,pfnm_06,pfnm_07,pfnm_08,pfnm_09,pfnm_10,pfnm_11,pfnm_12,pfnm_13,pfnm_14,pfnm_15,pfnm_16",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "pueblos_orig"
+            ],
+            "id": "pueblos_orig",
+            "label": "Pueblos originarios",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1524835809497"
+            ],
+            "id": "unique-id-1524835809497",
+            "label": "Selva Misionera - Paranaense",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "ptf",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "stb_ptf_98-16"
+            ],
+            "id": "unique-id-1524841009587",
+            "label": "Selva Tucumano Boliviana - Yungas",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "ptf_esp",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1525181346224"
+            ],
+            "id": "unique-id-1525181346224",
+            "label": "Espinal",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "ptf_esp",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "smi_potf_1998_2016"
+            ],
+            "id": "smi_potf_1998_2016",
+            "label": "Selva Misionera - Paranaense",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "potf",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "stb_potf_1998_2016"
+            ],
+            "id": "stb_potf_1998_2016",
+            "label": "Selva Tucumano Boliviana - Yungas",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-  01T00:00:00.000Z",
+            "timeStyles": "potf",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "spp_ftales_cites"
+            ],
+            "id": "spp_ftales_cites",
+            "label": "Distribución de especies forestales CITES",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "esp_potf_1998_2016"
+            ],
+            "id": "esp_potf_1998_2016",
+            "label": "Espinal",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-  01T00:00:00.000Z",
+            "timeStyles": "potf_esp",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "pch_ptf_06-16"
+            ],
+            "id": "pch_ptf_06-16",
+            "label": "Parque Chaqueño",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "ptf_esp",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "pch_potf_06-16"
+            ],
+            "id": "pch_potf_06-16",
+            "label": "Parque Chaqueño",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeStyles": "potf_esp",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "subreg_delta"
+            ],
+            "id": "unique-id-1529166093188",
+            "label": "Delta e Islas del Río Paraná",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
         }
     ],
     "groups": [
@@ -1655,7 +2649,8 @@
             "items": [
                 "reg_ftal",
                 "distritos_espinal",
-                "subreg_pch"
+                "subreg_pch",
+                "unique-id-1529166093188"
             ],
             "id": "Regiones_forestales",
             "infoFile": "regfor.html",
@@ -1693,8 +2688,17 @@
             "infoLink": ""
         },
         {
-            "items": [],
-            "id": "procesoscambio",
+            "items": [
+                "unique-id-1525181346224",
+                "pch_ptf_06-16",
+                "unique-id-1524835809497",
+                "unique-id-1524841009587",
+                "esp_potf_1998_2016",
+                "pch_potf_06-16",
+                "smi_potf_1998_2016",
+                "stb_potf_1998_2016"
+            ],
+            "id": "proc_camb",
             "label": "Procesos de cambio",
             "infoFile": "",
             "infoLink": ""
@@ -1729,7 +2733,7 @@
                 "planes_mane"
             ],
             "id": "leybosques",
-            "label": "Ley 26.331",
+            "label": "Ley 26.331 (Ley de bosques)",
             "infoFile": "",
             "infoLink": ""
         },
@@ -1738,19 +2742,24 @@
                 {
                     "items": [
                         "unique-id-1521113100443",
-                        "unique-id-1521113836634",
-                        "unique-id-1521114619371"
+                        "unique-id-1521113836634"
                     ],
                     "id": "provincias_incendios",
                     "label": "Incendios Forestales"
-                }
+                },
+                "sup_incen_prov",
+                "sup_incen_depto",
+                "prod_ftales_prov",
+                "prod_ftal_depto_02_15",
+                "pfnm_prov04_16"
             ],
             "id": "estadisticas",
             "label": "Estadísticas Forestales"
         },
         {
             "items": [
-                "unique-id-1521077450028"
+                "unique-id-1521077450028",
+                "pueblos_orig"
             ],
             "id": "salvaguardas",
             "infoFile": "salvaguardas.html",
@@ -1758,7 +2767,15 @@
             "infoLink": ""
         },
         {
+            "items": [],
+            "id": "sat",
+            "label": "Sistema de Alerta Temprana de Deforestación",
+            "infoFile": "",
+            "infoLink": ""
+        },
+        {
             "items": [
+                "spp_ftales_cites",
                 {
                     "items": [
                         "unique-id-1520345504583",
