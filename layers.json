@@ -1494,7 +1494,7 @@
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:smi_ptf_1998_2016",
+            "wmsName": "bosques:smi_ptf_1998_2016_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1512,7 +1512,7 @@
             "sourceLabel": "",
             "visible": false,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:stb_ptf_1998_2016_3857t0",
+            "wmsName": "bosques:stb_ptf_1998_2016_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1548,7 +1548,7 @@
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:smi_potf_1998_2016",
+            "wmsName": "bosques:smi_potf_1998_2016_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1566,7 +1566,7 @@
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:stb_potf_1998_2016",
+            "wmsName": "bosques:stb_potf_1998_2016_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1619,42 +1619,6 @@
             "queryHighlightBounds": false
         },
         {
-            "id": "pch_ptf_06-16",
-            "type": "wms",
-            "label": "",
-            "sourceLink": "",
-            "sourceLabel": "",
-            "visible": false,
-            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:pch_ptf_2006_2016_3857t",
-            "imageFormat": "image/png8",
-            "queryType": "wms",
-            "queryUrl": "",
-            "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": false
-        },
-        {
-            "id": "pch_potf_06-16",
-            "type": "wms",
-            "label": "",
-            "sourceLink": "",
-            "sourceLabel": "",
-            "visible": true,
-            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:pch_potf_2006_2016_3857t",
-            "imageFormat": "image/png8",
-            "queryType": "wms",
-            "queryUrl": "",
-            "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": false
-        },
-        {
             "id": "subreg_delta",
             "type": "wms",
             "label": "",
@@ -1674,6 +1638,658 @@
             "queryFieldAliases": [
                 "Región",
                 "Subregión"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "bap_ben",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:bap_ben",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "bap_socio",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:bap_socio",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "bap_biof",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:bap_biof",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "bap_biod",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:bap_biod",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "esp_ben",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:esp_ben",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "esp_biod",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:esp_biod",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "esp_biof",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:esp_biof",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "esp_socio",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:esp_socio",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "mon_ben",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:mon_ben",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "mon_biod",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:mon_biod",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "mon_socio",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:mon_socio",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "mon_biof",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:mon_biof",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "stb_ben",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:stb_ben",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "stb_biof",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:stb_biof",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "stb_socio",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:stb_socio",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "stb_biod",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:stb_biod",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "smi_ben",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:smi_ben",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "smi_biod",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:smi_biod",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "smi_socio",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:smi_socio",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "smi_biof",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:smi_biof",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pch_ptf_98-16",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pch_ptf_1998_2016_3857t",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pch_potf_98-16",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pch_potf_1998_2016_3857t",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pch_ben",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pch_ben",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pch_socio",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pch_socio",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pch_biof",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pch_biof",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "pch_biod",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pch_biod",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "ivs",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:ivs_38571",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "clase"
+            ],
+            "queryFieldAliases": [
+                "Clase"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "tmax",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:tmax_x_ivs_38570",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "val_num"
+            ],
+            "queryFieldAliases": [
+                "Diferencia (°C)"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "ppanual",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:ppanual_x_ivs_38570",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "val_num"
+            ],
+            "queryFieldAliases": [
+                "Diferencia (mm/año)"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "tmin",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:tmin_x_ivs_38570",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "val_num"
+            ],
+            "queryFieldAliases": [
+                "Diferencia (°C)"
             ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
@@ -2594,9 +3210,303 @@
         },
         {
             "layers": [
-                "pch_ptf_06-16"
+                "subreg_delta"
             ],
-            "id": "pch_ptf_06-16",
+            "id": "unique-id-1529166093188",
+            "label": "Delta e Islas del Río Paraná",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "bap_ben"
+            ],
+            "id": "bap_ben",
+            "label": "bap_ben",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "bap_socio"
+            ],
+            "id": "bap_socio",
+            "label": "bap_socio",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "bap_biof"
+            ],
+            "id": "bap_biof",
+            "label": "bap_biof",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "bap_biod"
+            ],
+            "id": "bap_biod",
+            "label": "bap_biod",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "esp_ben"
+            ],
+            "id": "esp_ben",
+            "label": "esp_ben",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "esp_biod"
+            ],
+            "id": "esp_biod",
+            "label": "esp_biod",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "esp_biof"
+            ],
+            "id": "esp_biof",
+            "label": "esp_biof",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "esp_socio"
+            ],
+            "id": "esp_socio",
+            "label": "esp_socio",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "mon_ben"
+            ],
+            "id": "mon_ben",
+            "label": "mon_ben",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "mon_biod"
+            ],
+            "id": "mon_biod",
+            "label": "mon_biod",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "mon_socio"
+            ],
+            "id": "mon_socio",
+            "label": "mon_socio",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "mon_biof"
+            ],
+            "id": "mon_biof",
+            "label": "mon_biof",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "stb_ben"
+            ],
+            "id": "stb_ben",
+            "label": "stb_ben",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "stb_biof"
+            ],
+            "id": "stb_biof",
+            "label": "stb_biof",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "stb_socio"
+            ],
+            "id": "stb_socio",
+            "label": "stb_socio",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "stb_biod"
+            ],
+            "id": "stb_biod",
+            "label": "stb_biod",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "smi_ben"
+            ],
+            "id": "smi_ben",
+            "label": "smi_ben",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "smi_biod"
+            ],
+            "id": "smi_biod",
+            "label": "smi_biod",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "smi_socio"
+            ],
+            "id": "smi_socio",
+            "label": "smi_socio",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "smi_biof"
+            ],
+            "id": "smi_biof",
+            "label": "smi_biof",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "pch_ptf_98-16"
+            ],
+            "id": "pch_ptf_98-16",
             "label": "Parque Chaqueño",
             "infoFile": "",
             "infoLink": "",
@@ -2608,9 +3518,9 @@
         },
         {
             "layers": [
-                "pch_potf_06-16"
+                "pch_potf_98-16"
             ],
-            "id": "pch_potf_06-16",
+            "id": "pch_potf_98-16",
             "label": "Parque Chaqueño",
             "infoFile": "",
             "infoLink": "",
@@ -2622,10 +3532,108 @@
         },
         {
             "layers": [
-                "subreg_delta"
+                "pch_ben"
             ],
-            "id": "unique-id-1529166093188",
-            "label": "Delta e Islas del Río Paraná",
+            "id": "pch_ben",
+            "label": "pch_ben",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "pch_socio"
+            ],
+            "id": "pch_socio",
+            "label": "pch_socio",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "pch_biof"
+            ],
+            "id": "pch_biof",
+            "label": "pch_biof",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "pch_biod"
+            ],
+            "id": "pch_biod",
+            "label": "pch_biod",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "ivs"
+            ],
+            "id": "ivs",
+            "label": "Índice de Vulnerabilidad Social",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "tmax"
+            ],
+            "id": "tmax",
+            "label": "Temperatura máxima",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "ppanual"
+            ],
+            "id": "ppanual",
+            "label": "Precipitación anual",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "tmin"
+            ],
+            "id": "tmin",
+            "label": "Temperatura mínima",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -2690,13 +3698,13 @@
         {
             "items": [
                 "unique-id-1525181346224",
-                "pch_ptf_06-16",
+                "pch_ptf_98-16",
                 "unique-id-1524835809497",
                 "unique-id-1524841009587",
                 "esp_potf_1998_2016",
-                "pch_potf_06-16",
                 "smi_potf_1998_2016",
-                "stb_potf_1998_2016"
+                "stb_potf_1998_2016",
+                "pch_potf_98-16"
             ],
             "id": "proc_camb",
             "label": "Procesos de cambio",
@@ -2759,7 +3767,31 @@
         {
             "items": [
                 "unique-id-1521077450028",
-                "pueblos_orig"
+                "pueblos_orig",
+                "bap_ben",
+                "bap_socio",
+                "bap_biof",
+                "bap_biod",
+                "esp_ben",
+                "esp_biod",
+                "esp_biof",
+                "esp_socio",
+                "mon_ben",
+                "mon_biod",
+                "mon_socio",
+                "mon_biof",
+                "stb_ben",
+                "stb_biof",
+                "stb_socio",
+                "stb_biod",
+                "smi_ben",
+                "smi_biod",
+                "smi_socio",
+                "smi_biof",
+                "pch_ben",
+                "pch_socio",
+                "pch_biof",
+                "pch_biod"
             ],
             "id": "salvaguardas",
             "infoFile": "salvaguardas.html",
@@ -2787,7 +3819,11 @@
                     "label": "Áreas naturales protegidas",
                     "infoFile": "",
                     "infoLink": ""
-                }
+                },
+                "ivs",
+                "tmax",
+                "tmin",
+                "ppanual"
             ],
             "id": "infoaxiliar",
             "label": "Información Auxiliar"
