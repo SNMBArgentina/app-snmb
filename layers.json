@@ -531,30 +531,6 @@
             "queryHighlightBounds": false
         },
         {
-            "id": "unique-id-1521077450028",
-            "type": "wms",
-            "label": "",
-            "sourceLink": "",
-            "sourceLabel": "",
-            "visible": true,
-            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:comunidades_indigenas",
-            "imageFormat": "image/png8",
-            "queryType": "wms",
-            "queryUrl": "",
-            "queryGeomFieldName": "",
-            "queryFieldNames": [
-                "comunidad",
-                "pueblo"
-            ],
-            "queryFieldAliases": [
-                "Comunidad",
-                "Pueblo"
-            ],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": true
-        },
-        {
             "id": "unique-id-1521113100443",
             "type": "wms",
             "label": "",
@@ -1465,28 +1441,6 @@
             "queryHighlightBounds": false
         },
         {
-            "id": "pueblos_orig",
-            "type": "wms",
-            "label": "",
-            "sourceLink": "",
-            "sourceLabel": "",
-            "visible": true,
-            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:pueblos_originarios_3857",
-            "imageFormat": "image/png8",
-            "queryType": "wms",
-            "queryUrl": "",
-            "queryGeomFieldName": "",
-            "queryFieldNames": [
-                "PUEBLO"
-            ],
-            "queryFieldAliases": [
-                "Pueblo"
-            ],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": true
-        },
-        {
             "id": "unique-id-1524835809497",
             "type": "wms",
             "label": "",
@@ -2293,6 +2247,52 @@
             ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
+        },
+        {
+            "id": "pueblos_originarios",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:pueblos_originarios_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "PUEBLO"
+            ],
+            "queryFieldAliases": [
+                "Pueblo"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "unique-id-1536078999909",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:comunidades_indigenas",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "comunidad",
+                "pueblo"
+            ],
+            "queryFieldAliases": [
+                "Comunidad",
+                "Pueblo"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
         }
     ],
     "portalLayers": [
@@ -2614,20 +2614,6 @@
             "label": "Cortinas forestales",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "",
-            "timeStyles": "",
-            "date-format": "",
-            "active": false,
-            "feedback": false
-        },
-        {
-            "layers": [
-                "unique-id-1521077450028"
-            ],
-            "id": "unique-id-1521077450028",
-            "label": "Comunidades indígenas",
-            "infoFile": "",
-            "infoLink": "http://ideambiente.eliteconsulting.com.ar/geonetwork/srv/spa/catalog.search#/metadata/5d31765af1d90a0a344da85befbe098ffc1611af",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
@@ -2992,7 +2978,7 @@
             "label": "Planes de Conservación",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "",
+            "timeInstances": "2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
             "timeStyles": "",
             "date-format": "",
             "active": false,
@@ -3006,7 +2992,7 @@
             "label": "Planes de Formulación",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "",
+            "timeInstances": "2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
             "timeStyles": "",
             "date-format": "",
             "active": false,
@@ -3020,7 +3006,7 @@
             "label": "Planes de Manejo",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "",
+            "timeInstances": "2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
             "timeStyles": "",
             "date-format": "",
             "active": false,
@@ -3092,20 +3078,6 @@
             "infoLink": "",
             "timeInstances": "2005-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2009-01-01T00:00:00.000Z,2010-01-01T00:00:00.000Z,2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
             "timeStyles": "pfnm_04,pfnm_05,pfnm_06,pfnm_07,pfnm_08,pfnm_09,pfnm_10,pfnm_11,pfnm_12,pfnm_13,pfnm_14,pfnm_15,pfnm_16",
-            "date-format": "",
-            "active": false,
-            "feedback": false
-        },
-        {
-            "layers": [
-                "pueblos_orig"
-            ],
-            "id": "pueblos_orig",
-            "label": "Pueblos originarios",
-            "infoFile": "",
-            "infoLink": "",
-            "timeInstances": "",
-            "timeStyles": "",
             "date-format": "",
             "active": false,
             "feedback": false
@@ -3641,6 +3613,35 @@
             "date-format": "",
             "active": false,
             "feedback": false
+        },
+        {
+            "layers": [
+                "pueblos_originarios"
+            ],
+            "id": "pueblos_originarios",
+            "label": "Pueblos originarios",
+            "infoFile": "",
+            "infoLink": "",
+            "inlineLegendUrl": "auto",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1536078999909"
+            ],
+            "id": "comun_pueblos",
+            "label": "Comunidades de pueblos originarios",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
         }
     ],
     "groups": [
@@ -3662,7 +3663,8 @@
             ],
             "id": "Regiones_forestales",
             "infoFile": "regfor.html",
-            "label": "Regiones Forestales"
+            "label": "Regiones forestales",
+            "infoLink": ""
         },
         {
             "items": [
@@ -3692,7 +3694,7 @@
             ],
             "id": "area_bosques",
             "infoFile": "bn_pc.docx.html",
-            "label": "Áreas de Bosque",
+            "label": "Áreas de bosque",
             "infoLink": ""
         },
         {
@@ -3707,7 +3709,7 @@
                 "pch_potf_98-16"
             ],
             "id": "proc_camb",
-            "label": "Procesos de cambio",
+            "label": "Pérdida de bosque nativo",
             "infoFile": "",
             "infoLink": ""
         },
@@ -3762,12 +3764,12 @@
                 "pfnm_prov04_16"
             ],
             "id": "estadisticas",
-            "label": "Estadísticas Forestales"
+            "label": "Estadísticas forestales",
+            "infoFile": "",
+            "infoLink": ""
         },
         {
             "items": [
-                "unique-id-1521077450028",
-                "pueblos_orig",
                 "bap_ben",
                 "bap_socio",
                 "bap_biof",
@@ -3801,13 +3803,15 @@
         {
             "items": [],
             "id": "sat",
-            "label": "Sistema de Alerta Temprana de Deforestación",
+            "label": "Sistema de Alerta Temprana de Deforestación (BETA)",
             "infoFile": "",
             "infoLink": ""
         },
         {
             "items": [
                 "spp_ftales_cites",
+                "pueblos_originarios",
+                "comun_pueblos",
                 {
                     "items": [
                         "unique-id-1520345504583",
@@ -3826,7 +3830,9 @@
                 "ppanual"
             ],
             "id": "infoaxiliar",
-            "label": "Información Auxiliar"
+            "label": "Información auxiliar",
+            "infoFile": "",
+            "infoLink": ""
         },
         {
             "items": [
@@ -3834,7 +3840,7 @@
                 "argenmap6"
             ],
             "id": "base",
-            "label": "Capa base",
+            "label": "Capas base",
             "infoFile": "",
             "infoLink": ""
         },
