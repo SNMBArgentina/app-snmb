@@ -28,8 +28,8 @@
   height: 69px;
   width: auto;
   z-index: 1100;
-  background: url(../static/img/logoambiente.svg) no-repeat 0 0;
-  background-size: 330px 50px;
+  background: url(../static/img/logoambiente.png) no-repeat 0 0;
+  background-size: 330px 70px;
 }
 
 #banner {
