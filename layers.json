@@ -2293,6 +2293,118 @@
             ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
+        },
+        {
+            "id": "sat_enejun18_co",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:sat_enejun18_co",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "validacion",
+                "reporte_pr",
+                "Ha",
+                "Periodo"
+            ],
+            "queryFieldAliases": [
+                "Validacion",
+                "Reporte provincial",
+                "Superficie (ha)",
+                "Periodo"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "sat_enejun18_nc",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:sat_enejun18_nc0",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "validacion",
+                "reporte_pr",
+                "Ha",
+                "Periodo"
+            ],
+            "queryFieldAliases": [
+                "Validacion",
+                "Reporte provincial",
+                "Superficie (ha)",
+                "Periodo"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "sat_jul18_co",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:sat_jul18_co",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "validacion",
+                "reporte_pr",
+                "Ha",
+                "Periodo"
+            ],
+            "queryFieldAliases": [
+                "Validacion",
+                "Reporte provincial",
+                "Superficie (ha)",
+                "Periodo"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "sat_jul18_nc",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": false,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:sat_jul18_nc0",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [
+                "validacion",
+                "reporte_pr",
+                "Ha",
+                "Periodo"
+            ],
+            "queryFieldAliases": [
+                "Validacion",
+                "Reporte provincial",
+                "Superficie (ha)",
+                "Periodo"
+            ],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
         }
     ],
     "portalLayers": [
@@ -2989,7 +3101,7 @@
                 "planes_form"
             ],
             "id": "planes_form",
-            "label": "Planes de Formulación",
+            "label": "Proyectos de Formulación",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "2011-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2013-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
@@ -3642,6 +3754,66 @@
             "date-format": "",
             "active": false,
             "feedback": false
+        },
+        {
+            "layers": [
+                "sat_enejun18_co"
+            ],
+            "id": "sat_enejun18_co",
+            "label": "Alertas confirmadas",
+            "infoFile": "",
+            "infoLink": "",
+            "inlineLegendUrl": "auto",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "sat_enejun18_nc"
+            ],
+            "id": "sat_enejun18_nc",
+            "label": "Alertas no confirmadas",
+            "infoFile": "",
+            "infoLink": "",
+            "inlineLegendUrl": "auto",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "sat_jul18_co"
+            ],
+            "id": "sat_jul18_co",
+            "label": "Alertas confirmadas",
+            "infoFile": "",
+            "infoLink": "",
+            "inlineLegendUrl": "auto",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "sat_jul18_nc"
+            ],
+            "id": "sat_jul18_nc",
+            "label": "Alertas no confirmadas",
+            "infoFile": "",
+            "infoLink": "",
+            "inlineLegendUrl": "auto",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
         }
     ],
     "groups": [
@@ -3801,7 +3973,12 @@
             "infoLink": ""
         },
         {
-            "items": [],
+            "items": [
+                "sat_enejun18_co",
+                "sat_enejun18_nc",
+                "sat_jul18_co",
+                "sat_jul18_nc"
+            ],
             "id": "sat",
             "label": "Sistema de Alerta Temprana de Deforestación (BETA)",
             "infoFile": "",
