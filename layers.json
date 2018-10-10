@@ -3829,9 +3829,15 @@
         {
             "items": [
                 "reg_ftal",
-                "distritos_espinal",
-                "subreg_pch",
-                "unique-id-1529166093188"
+                  {
+                    "items": [
+                       "distritos_espinal",
+                       "subreg_pch",
+                      "unique-id-1529166093188"
+                    ],
+                    "id": "innersubregiones",
+                    "label": "Subregiones"
+                }
             ],
             "id": "Regiones_forestales",
             "infoFile": "regfor.html",
@@ -3871,14 +3877,26 @@
         },
         {
             "items": [
-                "unique-id-1525181346224",
-                "pch_ptf_98-16",
-                "unique-id-1524835809497",
-                "unique-id-1524841009587",
+                      {
+                    "items": [
+                     "unique-id-1525181346224",
+                     "pch_ptf_98-16",
+                     "unique-id-1524835809497",
+                    "unique-id-1524841009587"
+                    ],
+                    "id": "innerperdidatf",
+                    "label": "Pérdida de tierras forestales"
+                },
+                 {
+                    "items": [
                 "esp_potf_1998_2016",
                 "smi_potf_1998_2016",
                 "stb_potf_1998_2016",
                 "pch_potf_98-16"
+                    ],
+                    "id": "innerperdidaotf",
+                    "label": "Pérdida de otras tierras forestales"
+                }
             ],
             "id": "proc_camb",
             "label": "Pérdida de bosque nativo",
@@ -3887,6 +3905,8 @@
         },
         {
             "items": [
+                       {
+                    "items": [
                 "otbn_ba",
                 "otbn_cd",
                 "otbn_ch",
@@ -3909,10 +3929,21 @@
                 "otbn_sl",
                 "otbn_st",
                 "otbn_tc",
-                "otbn_tf",
-                "planes_conserv",
+                "otbn_tf"
+                    ],
+                    "id": "innerotbn",
+                    "label": "Ordenamiento territorial de bosque nativo"
+                },
+                {
+                    "items": [
+               "planes_conserv",
                 "planes_form",
                 "planes_mane"
+
+                    ],
+                    "id": "innerplanbn",
+                    "label": "Plan de bosque nativo"
+                }
             ],
             "id": "leybosques",
             "label": "Ley 26.331 (Ley de bosques)",
@@ -3924,16 +3955,22 @@
                 {
                     "items": [
                         "unique-id-1521113100443",
-                        "unique-id-1521113836634"
-                    ],
-                    "id": "provincias_incendios",
-                    "label": "Incendios Forestales"
+                        "unique-id-1521113836634",
+                        "sup_incen_prov",
+                        "sup_incen_depto",
+                     ],
+                    "id": "innerincendios",
+                    "label": "Incendios forestales"
                 },
-                "sup_incen_prov",
-                "sup_incen_depto",
+                 {
+                    "items": [
                 "prod_ftales_prov",
                 "prod_ftal_depto_02_15",
                 "pfnm_prov04_16"
+                    ],
+                    "id": "innerproductosf",
+                    "label": "Productos forestales"
+                }
             ],
             "id": "estadisticas",
             "label": "Estadísticas forestales",
@@ -3942,30 +3979,66 @@
         },
         {
             "items": [
+ {
+                    "items": [
                 "bap_ben",
                 "bap_socio",
                 "bap_biof",
-                "bap_biod",
-                "esp_ben",
+                "bap_biod"
+                    ],
+                    "id": "innerbapben",
+                    "label": "Bosque Andino Patagónico"
+                },
+ {
+                    "items": [
+             "esp_ben",
                 "esp_biod",
                 "esp_biof",
-                "esp_socio",
-                "mon_ben",
+                "esp_socio"
+                    ],
+                    "id": "innerespben",
+                    "label": "Espinal"
+                },
+ {
+                    "items": [
+            "mon_ben",
                 "mon_biod",
                 "mon_socio",
-                "mon_biof",
-                "stb_ben",
+                "mon_biof"
+                    ],
+                    "id": "innermonteben",
+                    "label": "Monte"
+                },
+ {
+                    "items": [
+                     "stb_ben",
                 "stb_biof",
                 "stb_socio",
-                "stb_biod",
+                "stb_biod"
+                    ],
+                    "id": "innerstbben",
+                    "label": "Selva Tucumano Boliviana - Yungas"
+                },
+ {
+                    "items": [
                 "smi_ben",
                 "smi_biod",
                 "smi_socio",
-                "smi_biof",
-                "pch_ben",
+                "smi_biof"
+                    ],
+                    "id": "innersmiben",
+                    "label": "Selva Misionera - Selva Paranaense"
+                },
+ {
+                    "items": [
+                 "pch_ben",
                 "pch_socio",
                 "pch_biof",
                 "pch_biod"
+                    ],
+                    "id": "innerpchben",
+                    "label": "Parque Chaqueño"
+                }
             ],
             "id": "salvaguardas",
             "infoFile": "salvaguardas.html",
@@ -3974,10 +4047,23 @@
         },
         {
             "items": [
+ {
+                    "items": [
                 "sat_enejun18_co",
-                "sat_enejun18_nc",
-                "sat_jul18_co",
+                "sat_enejun18_nc"
+                    ],
+                    "id": "innersatej18",
+                    "label": "Alertas acumuladas enero - julio 2018"
+                },
+ {
+                    "items": [
+               "sat_jul18_co",
                 "sat_jul18_nc"
+                    ],
+                    "id": "innersata18",
+                    "label": "Alertas agosto 2018"
+                }
+
             ],
             "id": "sat",
             "label": "Sistema de Alerta Temprana de Deforestación (BETA)",
@@ -3986,25 +4072,37 @@
         },
         {
             "items": [
-                "spp_ftales_cites",
-                "pueblos_originarios",
-                "comun_pueblos",
-                {
+
+ {
                     "items": [
-                        "unique-id-1520345504583",
+             "spp_ftales_cites",
+                "pueblos_originarios",
+                "comun_pueblos"
+                    ],
+                    "id": "innerpueblosori",
+                    "label": "Pueblos originarios y comunidades"
+                },
+ {
+                    "items": [
+              "unique-id-1520345504583",
                         "unique-id-1520345601501",
                         "reservas_biosfera",
                         "sitio_ramsar"
                     ],
-                    "id": "innerareasprotegidas",
-                    "label": "Áreas naturales protegidas",
-                    "infoFile": "",
-                    "infoLink": ""
+                  "id": "innerareasprotegidas",
+                    "label": "Áreas naturales protegidas"
                 },
+{
+                    "items": [
                 "ivs",
                 "tmax",
                 "tmin",
                 "ppanual"
+                    ],
+                    "id": "innermapasriesgo",
+                    "label": "Sistema de Mapas de Riesgos de Cambio Climático"
+                }
+
             ],
             "id": "infoaxiliar",
             "label": "Información auxiliar",
