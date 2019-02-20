@@ -12,9 +12,9 @@
         },
         {
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "label": "Bosque Andino Patagónico",
+            "label": "Bosque Andino Patagónico  (Bosque Nativo 2000)",
             "visible": true,
-            "legend": "leyenda_niv1.png",
+            "legend": "auto",
             "imageFormat": "image/png8",
             "wmsName": "bosques:bap_pinb_umsef_3857",
             "id": "map-bap",
@@ -35,12 +35,12 @@
         },
         {
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "label": "Selva Misionera - Selva Paranaense",
+            "label": "Selva Misionera - Selva Paranaense (Bosque Nativo 2002)",
             "visible": true,
             "imageFormat": "image/png8",
             "id": "selvamis_t",
             "wmsName": "bosques:smi_98-02_umsef_3857",
-            "legend": "leyenda_niv1.png",
+            "legend": "auto",
             "type": "wms",
             "sourceLink": "",
             "sourceLabel": "",
@@ -84,11 +84,11 @@
         },
         {
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "legend": "leyenda_niv1.png",
+            "legend": "auto",
             "visible": true,
             "imageFormat": "image/png8",
             "wmsName": "bosques:stbbn06",
-            "label": "Selva Tucumano Boliviana - Yungas",
+            "label": "Selva Tucumano Boliviana - Yungas (Bosque Nativo 2006)",
             "id": "map-stb_t",
             "type": "wms",
             "sourceLink": "",
@@ -109,11 +109,11 @@
         },
         {
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "legend": "leyenda_niv1.png",
+            "legend": "auto",
             "visible": true,
             "imageFormat": "image/png8",
             "wmsName": "bosques:pch9806_3857",
-            "label": "Parque Chaqueño",
+            "label": "Parque Chaqueño (Bosque Nativo 2006)",
             "id": "map-pchbn06_3857",
             "type": "wms",
             "sourceLink": "",
@@ -134,10 +134,10 @@
         },
         {
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "label": "Espinal - Distrito del Ñandubay (2006)",
+            "label": "Espinal - Distrito del Ñandubay (Bosque Nativo 2006)",
             "visible": true,
             "imageFormat": "image/png8",
-            "legend": "leyenda_niv1.png",
+            "legend": "auto",
             "wmsName": "bosques:espnan06_3857",
             "id": "map-espnan06",
             "type": "wms",
@@ -157,11 +157,11 @@
         },
         {
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "label": "Espinal - Distrito del Caldén (2006)",
+            "label": "Espinal - Distrito del Caldén (Bosque Nativo 2006)",
             "visible": true,
             "id": "map-espcal06",
             "wmsName": "bosques:espcal06_3857",
-            "legend": "leyenda_niv1.png",
+            "legend": "auto",
             "type": "wms",
             "sourceLink": "",
             "sourceLabel": "",
@@ -184,8 +184,8 @@
             "visible": true,
             "imageFormat": "image/png8",
             "wmsName": "bosques:mon98pinbn3857",
-            "label": "Monte (1998)",
-            "legend": "leyenda_niv1.png",
+            "label": "Monte (Bosque Nativo 1998)",
+            "legend": "auto",
             "type": "wms",
             "sourceLink": "",
             "sourceLabel": "",
@@ -349,8 +349,8 @@
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
-            "baseUrl": "http://wms.ign.gob.ar/geoserver/gwc/service/wms",
-            "wmsName": "capabaseargenmap",
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:capabaseargenmap",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -385,7 +385,7 @@
         {
             "id": "distritos_espinal",
             "type": "wms",
-            "label": "",
+            "label": "Subregiones Espinal",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -409,7 +409,7 @@
         {
             "id": "subreg_pch",
             "type": "wms",
-            "label": "",
+            "label": "Subregiones Parque Chaqueño",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -489,7 +489,7 @@
         {
             "id": "macizos_ftales",
             "type": "wms",
-            "label": "",
+            "label": "Plantaciones forestales (Bosque cultivado)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": false,
@@ -506,12 +506,13 @@
                 "Género"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "cortinas_ftales",
             "type": "wms",
-            "label": "",
+            "label": "Cortinas forestales (Bosque cultivado)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -528,7 +529,8 @@
                 "Género"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "unique-id-1521113100443",
@@ -554,7 +556,8 @@
                 "Año"
             ],
             "queryTimeFieldName": "anio",
-            "queryHighlightBounds": true
+            "queryHighlightBounds": true,
+            "legend": "auto"
         },
         {
             "id": "unique-id-1521113836634",
@@ -588,7 +591,7 @@
             "sourceLabel": "",
             "visible": false,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:otbn_ba_38570",
+            "wmsName": "bosques:otbn_ba_3857",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1443,12 +1446,12 @@
         {
             "id": "unique-id-1524835809497",
             "type": "wms",
-            "label": "",
+            "label": "Selva Misionera - Paranaense (Pérdida de tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:smi_ptf_1998_2016_3857t",
+            "wmsName": "bosques:smi_ptf_1998_2017_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1461,30 +1464,12 @@
         {
             "id": "stb_ptf_98-16",
             "type": "wms",
-            "label": "",
+            "label": "Selva Tucumano Boliviana - Yungas (Pérdida de tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": false,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:stb_ptf_1998_2016_3857t",
-            "imageFormat": "image/png8",
-            "queryType": "wms",
-            "queryUrl": "",
-            "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": false
-        },
-        {
-            "id": "unique-id-1525181346224",
-            "type": "wms",
-            "label": "",
-            "sourceLink": "",
-            "sourceLabel": "",
-            "visible": true,
-            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:esp_ptf_1998_2016_3857t",
+            "wmsName": "bosques:stb_ptf_1998_2017_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1497,12 +1482,12 @@
         {
             "id": "smi_potf_1998_2016",
             "type": "wms",
-            "label": "",
+            "label": "Selva Misionera - Paranaense (Pérdida de otras tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:smi_potf_1998_2016_3857t",
+            "wmsName": "bosques:smi_potf_1998_2017_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1515,12 +1500,12 @@
         {
             "id": "stb_potf_1998_2016",
             "type": "wms",
-            "label": "",
+            "label": "Selva Tucumano Boliviana - Yungas (Pérdida de otras tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:stb_potf_1998_2016_3857t",
+            "wmsName": "bosques:stb_potf_1998_2017_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1557,12 +1542,12 @@
         {
             "id": "esp_potf_1998_2016",
             "type": "wms",
-            "label": "",
+            "label": "Espinal (Pérdida de otras tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:esp_potf_1998_2016_3857t",
+            "wmsName": "bosques:esp_potf_1998_2017_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -1575,7 +1560,7 @@
         {
             "id": "subreg_delta",
             "type": "wms",
-            "label": "",
+            "label": "Subregiones Delta e Islas del Paraná",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1599,7 +1584,7 @@
         {
             "id": "bap_ben",
             "type": "wms",
-            "label": "",
+            "label": "Convergencia de beneficios (Bosque Andino Patagónico)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1616,12 +1601,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "bap_socio",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión socioeconómica (Bosque Andino Patagónico)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1638,12 +1624,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "bap_biof",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biofísica (Bosque Andino Patagónico)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1660,12 +1647,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "bap_biod",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biodiversidad (Bosque Andino Patagónico)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": false,
@@ -1682,12 +1670,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "esp_ben",
             "type": "wms",
-            "label": "",
+            "label": "Convergencia de beneficios (Espinal)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1704,12 +1693,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "esp_biod",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biodiversidad (Espinal)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1731,7 +1721,7 @@
         {
             "id": "esp_biof",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biofísica (Espinal)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1748,12 +1738,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "esp_socio",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión socioeconómica (Espinal)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1770,12 +1761,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "mon_ben",
             "type": "wms",
-            "label": "",
+            "label": "Convergencia de beneficios (Monte)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1792,12 +1784,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "mon_biod",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biodiversidad (Monte)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1814,12 +1807,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "mon_socio",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión socioeconómica (Monte)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1836,12 +1830,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "mon_biof",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biofísica (Monte)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1858,12 +1853,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "stb_ben",
             "type": "wms",
-            "label": "",
+            "label": "Convergencia de beneficios (Selva Tucumano Boliviana - Yungas)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1880,12 +1876,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "stb_biof",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biofísica (Selva Tucumano Boliviana - Yungas)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1902,12 +1899,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "stb_socio",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión socioeconómica (Selva Tucumano Boliviana - Yungas)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1924,12 +1922,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "stb_biod",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biodiversidad (Selva Tucumano Boliviana - Yungas)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1946,12 +1945,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "smi_ben",
             "type": "wms",
-            "label": "",
+            "label": "Convergencia de beneficios (Selva Misionera - Selva Paranaense)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1968,12 +1968,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "smi_biod",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biodiversidad (Selva Misionera - Selva Paranaense)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1990,12 +1991,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "smi_socio",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión socioeconómica (Selva Misionera - Selva Paranaense)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -2012,12 +2014,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "smi_biof",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biofísica (Selva Misionera - Selva Paranaense)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -2034,17 +2037,18 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "pch_ptf_98-16",
             "type": "wms",
-            "label": "",
+            "label": "Parque Chaqueño (Pérdida de tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": false,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:pch_ptf_1998_2016_3857t",
+            "wmsName": "bosques:pch_ptf_1998_2017_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -2057,12 +2061,12 @@
         {
             "id": "pch_potf_98-16",
             "type": "wms",
-            "label": "",
+            "label": "Parque Chaqueño (Pérdida de otras tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:pch_potf_1998_2016_3857t",
+            "wmsName": "bosques:pch_potf_1998_2017_3857t",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -2075,7 +2079,7 @@
         {
             "id": "pch_ben",
             "type": "wms",
-            "label": "",
+            "label": "Convergencia de beneficios (Parque Chaqueño)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -2092,12 +2096,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "pch_socio",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión socioeconómica (Parque Chaqueño)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -2114,12 +2119,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "pch_biof",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biofísica (Parque Chaqueño)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -2136,12 +2142,13 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "pch_biod",
             "type": "wms",
-            "label": "",
+            "label": "Dimensión biodiversidad (Parque Chaqueño)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -2158,7 +2165,8 @@
                 "Clase"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": false
+            "queryHighlightBounds": false,
+            "legend": "auto"
         },
         {
             "id": "ivs",
@@ -2190,7 +2198,7 @@
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:tmax_x_ivs_38570",
+            "wmsName": "bosques:tmax_x_ivs_3857",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -2212,7 +2220,7 @@
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:ppanual_x_ivs_38570",
+            "wmsName": "bosques:ppanual_x_ivs_3857",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -2234,7 +2242,7 @@
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:tmin_x_ivs_38570",
+            "wmsName": "bosques:tmin_x_ivs_3857",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -2295,112 +2303,113 @@
             "queryHighlightBounds": false
         },
         {
-            "id": "sat_enejun18_co",
+            "id": "otbn",
             "type": "wms",
             "label": "",
             "sourceLink": "",
             "sourceLabel": "",
-            "visible": false,
+            "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:sat_enejun18_co",
+            "wmsName": "bosques:OTBN_3857",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
             "queryFieldNames": [
-                "validacion",
-                "reporte_pr",
-                "Ha",
-                "Periodo"
+                "Cat_cons",
+                "Periodo",
+                "Area_ha",
+                "Provincia"
             ],
             "queryFieldAliases": [
-                "Validacion",
-                "Reporte provincial",
-                "Superficie (ha)",
-                "Periodo"
+                "Categoría",
+                "Año aprobación/actualización",
+                "Área ha",
+                "Provincia"
             ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
         },
         {
-            "id": "sat_enejun18_nc",
+            "id": "unique-id-1525181346224",
             "type": "wms",
+            "label": "Espinal (Pérdida de tierras forestales)",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
+            "wmsName": "bosques:esp_ptf_1998_2017_3857t",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
+            "id": "Q20_20181117",
+            "type": "wms",
+            "legend": "auto",
             "label": "",
             "sourceLink": "",
             "sourceLabel": "",
-            "visible": false,
+            "visible": true,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:sat_enejun18_nc0",
+            "wmsName": "bosques:Q20_20181101_38572",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
             "queryFieldNames": [
-                "validacion",
-                "reporte_pr",
-                "Ha",
-                "Periodo"
+                "SUP_HA",
+                "PROV",
+                "DEPTO",
+                "OTBN",
+                "ID",
+                "PERIODO",
+                "REPORTE_PR"
             ],
             "queryFieldAliases": [
-                "Validacion",
-                "Reporte provincial",
                 "Superficie (ha)",
-                "Periodo"
+                "Provincia",
+                "Departamento",
+                "OTBN",
+                "ID",
+                "Periodo",
+                "Reporte provincial"
             ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": false
         },
         {
-            "id": "sat_jul18_co",
+            "id": "Q21",
             "type": "wms",
             "label": "",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": false,
             "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:sat_jul18_co",
+            "wmsName": "bosques:Q21_20181117_38570",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "",
             "queryFieldNames": [
-                "validacion",
-                "reporte_pr",
-                "Ha",
-                "Periodo"
+                "SUP_HA",
+                "PROV",
+                "DEPTO",
+                "OTBN",
+                "ID",
+                "PERIODO"
             ],
             "queryFieldAliases": [
-                "Validacion",
-                "Reporte provincial",
                 "Superficie (ha)",
-                "Periodo"
-            ],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": false
-        },
-        {
-            "id": "sat_jul18_nc",
-            "type": "wms",
-            "label": "",
-            "sourceLink": "",
-            "sourceLabel": "",
-            "visible": false,
-            "baseUrl": "http://snmb.eliteconsulting.com.ar/geoserver/ows",
-            "wmsName": "bosques:sat_jul18_nc0",
-            "imageFormat": "image/png8",
-            "queryType": "wms",
-            "queryUrl": "",
-            "queryGeomFieldName": "",
-            "queryFieldNames": [
-                "validacion",
-                "reporte_pr",
-                "Ha",
-                "Periodo"
-            ],
-            "queryFieldAliases": [
-                "Validacion",
-                "Reporte provincial",
-                "Superficie (ha)",
+                "Provincia",
+                "Departamento",
+                "OTBN",
+                "ID",
                 "Periodo"
             ],
             "queryTimeFieldName": "",
@@ -2423,7 +2432,7 @@
             ],
             "feedback": true,
             "timeInstances": "1998,2002",
-            "label": "Selva Misionera - Selva Paranaense",
+            "label": "Selva Misionera - Selva Paranaense (2002)",
             "infoFile": "metadata_smi9802_bn_umsef.html",
             "active": false,
             "id": "selvamis_t",
@@ -2469,7 +2478,7 @@
             ],
             "feedback": true,
             "timeInstances": "1998-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z",
-            "label": "Selva Tucumano Boliviana - Yungas",
+            "label": "Selva Tucumano Boliviana - Yungas (2006)",
             "infoFile": "metadata_stb9806_bn_umsef.html",
             "id": "stb_t",
             "infoLink": "",
@@ -2483,7 +2492,7 @@
             ],
             "feedback": true,
             "timeInstances": "1998-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z",
-            "label": "Parque Chaqueño",
+            "label": "Parque Chaqueño (2006)",
             "infoFile": "metadata_pch9806_bn_umsef.html",
             "id": "pchbn06_3857",
             "infoLink": "",
@@ -2631,7 +2640,7 @@
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
-            "active": true,
+            "active": false,
             "feedback": false
         },
         {
@@ -2716,7 +2725,8 @@
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
@@ -2730,7 +2740,8 @@
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
@@ -2744,7 +2755,8 @@
             "timeStyles": "cant_incen_prov_93,cant_incen_prov_94,cant_incen_prov_95,cant_incen_prov_96,cant_incen_prov_97,cant_incen_prov_98,cant_incen_prov_99,cant_incen_prov_00,cant_incen_prov_01,cant_incen_prov_02,cant_incen_prov_03,cant_incen_prov_04,cant_incen_prov_05,cant_incen_prov_06,cant_incen_prov_07,cant_incen_prov_08,cant_incen_prov_09,cant_incen_prov_10,cant_incen_prov_11,cant_incen_prov_12,cant_incen_prov_13,cant_incen_prov_14,cant_incen_prov_15,cant_incen_prov_16",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
@@ -3202,7 +3214,7 @@
             "label": "Selva Misionera - Paranaense",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
             "timeStyles": "ptf",
             "date-format": "",
             "active": false,
@@ -3216,22 +3228,8 @@
             "label": "Selva Tucumano Boliviana - Yungas",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
-            "timeStyles": "ptf_esp",
-            "date-format": "",
-            "active": false,
-            "feedback": false
-        },
-        {
-            "layers": [
-                "unique-id-1525181346224"
-            ],
-            "id": "unique-id-1525181346224",
-            "label": "Espinal",
-            "infoFile": "",
-            "infoLink": "",
-            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
-            "timeStyles": "ptf_esp",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
+            "timeStyles": "ptf",
             "date-format": "",
             "active": false,
             "feedback": false
@@ -3244,7 +3242,7 @@
             "label": "Selva Misionera - Paranaense",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
             "timeStyles": "potf",
             "date-format": "",
             "active": false,
@@ -3258,7 +3256,7 @@
             "label": "Selva Tucumano Boliviana - Yungas",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-  01T00:00:00.000Z",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-  01T00:00:00.000Z,2018-01-  01T00:00:00.000Z",
             "timeStyles": "potf",
             "date-format": "",
             "active": false,
@@ -3286,8 +3284,8 @@
             "label": "Espinal",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-  01T00:00:00.000Z",
-            "timeStyles": "potf_esp",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-  01T00:00:00.000Z,2018-01-  01T00:00:00.000Z",
+            "timeStyles": "potf",
             "date-format": "",
             "active": false,
             "feedback": false
@@ -3311,7 +3309,7 @@
                 "bap_ben"
             ],
             "id": "bap_ben",
-            "label": "bap_ben",
+            "label": "Convergencia de beneficios",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3325,63 +3323,67 @@
                 "bap_socio"
             ],
             "id": "bap_socio",
-            "label": "bap_socio",
+            "label": "Dimensión socioeconómica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "bap_biof"
             ],
             "id": "bap_biof",
-            "label": "bap_biof",
+            "label": "Dimensión biofísica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "bap_biod"
             ],
             "id": "bap_biod",
-            "label": "bap_biod",
+            "label": "Dimensión biodiversidad",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "esp_ben"
             ],
             "id": "esp_ben",
-            "label": "esp_ben",
+            "label": "Convergencia de beneficios",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "esp_biod"
             ],
             "id": "esp_biod",
-            "label": "esp_biod",
+            "label": "Dimensión biodiversidad",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3395,35 +3397,37 @@
                 "esp_biof"
             ],
             "id": "esp_biof",
-            "label": "esp_biof",
+            "label": "Dimensión biofísica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "esp_socio"
             ],
             "id": "esp_socio",
-            "label": "esp_socio",
+            "label": "Dimensión socioeconómica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "mon_ben"
             ],
             "id": "mon_ben",
-            "label": "mon_ben",
+            "label": "Convergencia de beneficios",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3437,35 +3441,37 @@
                 "mon_biod"
             ],
             "id": "mon_biod",
-            "label": "mon_biod",
+            "label": "Dimensión biodiversidad",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "mon_socio"
             ],
             "id": "mon_socio",
-            "label": "mon_socio",
+            "label": "Dimensión socioeconómica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "mon_biof"
             ],
             "id": "mon_biof",
-            "label": "mon_biof",
+            "label": "Dimensión biofísica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3479,112 +3485,120 @@
                 "stb_ben"
             ],
             "id": "stb_ben",
-            "label": "stb_ben",
+            "label": "Convergencia de beneficios",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "stb_biof"
             ],
             "id": "stb_biof",
-            "label": "stb_biof",
+            "label": "Dimensión biofísica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "stb_socio"
             ],
             "id": "stb_socio",
-            "label": "stb_socio",
+            "label": "Dimensión socioeconómica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "stb_biod"
             ],
             "id": "stb_biod",
-            "label": "stb_biod",
+            "label": "Dimensión biodiversidad",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "smi_ben"
             ],
             "id": "smi_ben",
-            "label": "smi_ben",
+            "label": "Convergencia de beneficios",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "smi_biod"
             ],
             "id": "smi_biod",
-            "label": "smi_biod",
+            "label": "Dimensión biodiversidad",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "smi_socio"
             ],
             "id": "smi_socio",
-            "label": "smi_socio",
+            "label": "Dimensión socioeconómica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "smi_biof"
             ],
             "id": "smi_biof",
-            "label": "smi_biof",
+            "label": "Dimensión biofísica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
@@ -3594,8 +3608,8 @@
             "label": "Parque Chaqueño",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
-            "timeStyles": "ptf_esp",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
+            "timeStyles": "ptf",
             "date-format": "",
             "active": false,
             "feedback": false
@@ -3608,8 +3622,8 @@
             "label": "Parque Chaqueño",
             "infoFile": "",
             "infoLink": "",
-            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z",
-            "timeStyles": "potf_esp",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
+            "timeStyles": "potf",
             "date-format": "",
             "active": false,
             "feedback": false
@@ -3619,7 +3633,7 @@
                 "pch_ben"
             ],
             "id": "pch_ben",
-            "label": "pch_ben",
+            "label": "Convergencia de beneficios",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3633,42 +3647,45 @@
                 "pch_socio"
             ],
             "id": "pch_socio",
-            "label": "pch_socio",
+            "label": "Dimensión socioeconómica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "pch_biof"
             ],
             "id": "pch_biof",
-            "label": "pch_biof",
+            "label": "Dimensión biofísica",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
                 "pch_biod"
             ],
             "id": "pch_biod",
-            "label": "pch_biod",
+            "label": "Dimensión biodiversidad",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
@@ -3689,7 +3706,7 @@
                 "tmax"
             ],
             "id": "tmax",
-            "label": "Temperatura máxima",
+            "label": "Proyección cambio temperatura máxima",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3703,7 +3720,7 @@
                 "ppanual"
             ],
             "id": "ppanual",
-            "label": "Precipitación anual",
+            "label": "Proyección cambio precipitación anual",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3717,7 +3734,7 @@
                 "tmin"
             ],
             "id": "tmin",
-            "label": "Temperatura mínima",
+            "label": "Proyección cambio temperatura mínima",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3757,10 +3774,38 @@
         },
         {
             "layers": [
-                "sat_enejun18_co"
+                "otbn"
             ],
-            "id": "sat_enejun18_co",
-            "label": "Alertas confirmadas",
+            "id": "otbn",
+            "label": "OTBN nacional",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "",
+            "timeStyles": "",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "unique-id-1525181346224"
+            ],
+            "id": "unique-id-1525181346224",
+            "label": "Espinal",
+            "infoFile": "",
+            "infoLink": "",
+            "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
+            "timeStyles": "ptf",
+            "date-format": "",
+            "active": false,
+            "feedback": false
+        },
+        {
+            "layers": [
+                "Q20_20181117"
+            ],
+            "id": "Q20_20181117",
+            "label": "Alertas 1-16 nov 2018",
             "infoFile": "",
             "infoLink": "",
             "inlineLegendUrl": "auto",
@@ -3772,43 +3817,12 @@
         },
         {
             "layers": [
-                "sat_enejun18_nc"
+                "Q21"
             ],
-            "id": "sat_enejun18_nc",
-            "label": "Alertas no confirmadas",
+            "id": "unique-id-1548180871597",
+            "label": "Alertas 17 nov - 02 dic 2018",
             "infoFile": "",
             "infoLink": "",
-            "inlineLegendUrl": "auto",
-            "timeInstances": "",
-            "timeStyles": "",
-            "date-format": "",
-            "active": false,
-            "feedback": false
-        },
-        {
-            "layers": [
-                "sat_jul18_co"
-            ],
-            "id": "sat_jul18_co",
-            "label": "Alertas confirmadas",
-            "infoFile": "",
-            "infoLink": "",
-            "inlineLegendUrl": "auto",
-            "timeInstances": "",
-            "timeStyles": "",
-            "date-format": "",
-            "active": false,
-            "feedback": false
-        },
-        {
-            "layers": [
-                "sat_jul18_nc"
-            ],
-            "id": "sat_jul18_nc",
-            "label": "Alertas no confirmadas",
-            "infoFile": "",
-            "infoLink": "",
-            "inlineLegendUrl": "auto",
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
@@ -3829,11 +3843,11 @@
         {
             "items": [
                 "reg_ftal",
-                  {
+                {
                     "items": [
-                       "distritos_espinal",
-                       "subreg_pch",
-                      "unique-id-1529166093188"
+                        "distritos_espinal",
+                        "subreg_pch",
+                        "unique-id-1529166093188"
                     ],
                     "id": "innersubregiones",
                     "label": "Subregiones"
@@ -3877,22 +3891,22 @@
         },
         {
             "items": [
-                      {
+                {
                     "items": [
-                     "unique-id-1525181346224",
-                     "pch_ptf_98-16",
-                     "unique-id-1524835809497",
-                    "unique-id-1524841009587"
+                        "pch_ptf_98-16",
+                        "unique-id-1524835809497",
+                        "unique-id-1524841009587",
+                        "unique-id-1525181346224"
                     ],
                     "id": "innerperdidatf",
                     "label": "Pérdida de tierras forestales"
                 },
-                 {
+                {
                     "items": [
-                "esp_potf_1998_2016",
-                "smi_potf_1998_2016",
-                "stb_potf_1998_2016",
-                "pch_potf_98-16"
+                        "esp_potf_1998_2016",
+                        "smi_potf_1998_2016",
+                        "stb_potf_1998_2016",
+                        "pch_potf_98-16"
                     ],
                     "id": "innerperdidaotf",
                     "label": "Pérdida de otras tierras forestales"
@@ -3905,41 +3919,41 @@
         },
         {
             "items": [
-                       {
+                {
                     "items": [
-                "otbn_ba",
-                "otbn_cd",
-                "otbn_ch",
-                "otbn_cm",
-                "otbn_cu",
-                "otbn_cs",
-                "otbn_er",
-                "otbn_fs",
-                "otbn_jj",
-                "otbn_lp",
-                "otbn_lr",
-                "otbn_ms",
-                "otbn_mz",
-                "otbn_nq",
-                "otbn_rn",
-                "otbn_sc",
-                "otbn_se",
-                "otbn_sf",
-                "otbn_sj",
-                "otbn_sl",
-                "otbn_st",
-                "otbn_tc",
-                "otbn_tf"
+                        "otbn_ba",
+                        "otbn_cd",
+                        "otbn_ch",
+                        "otbn_cm",
+                        "otbn_cu",
+                        "otbn_cs",
+                        "otbn_er",
+                        "otbn_fs",
+                        "otbn_jj",
+                        "otbn_lp",
+                        "otbn_lr",
+                        "otbn_ms",
+                        "otbn_mz",
+                        "otbn_nq",
+                        "otbn_rn",
+                        "otbn_sc",
+                        "otbn_se",
+                        "otbn_sf",
+                        "otbn_sj",
+                        "otbn_sl",
+                        "otbn_st",
+                        "otbn_tc",
+                        "otbn_tf",
+                        "otbn"
                     ],
                     "id": "innerotbn",
                     "label": "Ordenamiento territorial de bosque nativo"
                 },
                 {
                     "items": [
-               "planes_conserv",
-                "planes_form",
-                "planes_mane"
-
+                        "planes_conserv",
+                        "planes_form",
+                        "planes_mane"
                     ],
                     "id": "innerplanbn",
                     "label": "Plan de bosque nativo"
@@ -3957,16 +3971,16 @@
                         "unique-id-1521113100443",
                         "unique-id-1521113836634",
                         "sup_incen_prov",
-                        "sup_incen_depto",
-                     ],
+                        "sup_incen_depto"
+                    ],
                     "id": "innerincendios",
                     "label": "Incendios forestales"
                 },
-                 {
+                {
                     "items": [
-                "prod_ftales_prov",
-                "prod_ftal_depto_02_15",
-                "pfnm_prov04_16"
+                        "prod_ftales_prov",
+                        "prod_ftal_depto_02_15",
+                        "pfnm_prov04_16"
                     ],
                     "id": "innerproductosf",
                     "label": "Productos forestales"
@@ -3979,62 +3993,62 @@
         },
         {
             "items": [
- {
+                {
                     "items": [
-                "bap_ben",
-                "bap_socio",
-                "bap_biof",
-                "bap_biod"
+                        "bap_ben",
+                        "bap_socio",
+                        "bap_biof",
+                        "bap_biod"
                     ],
                     "id": "innerbapben",
                     "label": "Bosque Andino Patagónico"
                 },
- {
+                {
                     "items": [
-             "esp_ben",
-                "esp_biod",
-                "esp_biof",
-                "esp_socio"
+                        "esp_ben",
+                        "esp_biod",
+                        "esp_biof",
+                        "esp_socio"
                     ],
                     "id": "innerespben",
                     "label": "Espinal"
                 },
- {
+                {
                     "items": [
-            "mon_ben",
-                "mon_biod",
-                "mon_socio",
-                "mon_biof"
+                        "mon_ben",
+                        "mon_biod",
+                        "mon_socio",
+                        "mon_biof"
                     ],
                     "id": "innermonteben",
                     "label": "Monte"
                 },
- {
+                {
                     "items": [
-                     "stb_ben",
-                "stb_biof",
-                "stb_socio",
-                "stb_biod"
+                        "stb_ben",
+                        "stb_biof",
+                        "stb_socio",
+                        "stb_biod"
                     ],
                     "id": "innerstbben",
                     "label": "Selva Tucumano Boliviana - Yungas"
                 },
- {
+                {
                     "items": [
-                "smi_ben",
-                "smi_biod",
-                "smi_socio",
-                "smi_biof"
+                        "smi_ben",
+                        "smi_biod",
+                        "smi_socio",
+                        "smi_biof"
                     ],
                     "id": "innersmiben",
                     "label": "Selva Misionera - Selva Paranaense"
                 },
- {
+                {
                     "items": [
-                 "pch_ben",
-                "pch_socio",
-                "pch_biof",
-                "pch_biod"
+                        "pch_ben",
+                        "pch_socio",
+                        "pch_biof",
+                        "pch_biod"
                     ],
                     "id": "innerpchben",
                     "label": "Parque Chaqueño"
@@ -4047,23 +4061,8 @@
         },
         {
             "items": [
- {
-                    "items": [
-                "sat_enejun18_co",
-                "sat_enejun18_nc"
-                    ],
-                    "id": "innersatej18",
-                    "label": "Alertas acumuladas enero - julio 2018"
-                },
- {
-                    "items": [
-               "sat_jul18_co",
-                "sat_jul18_nc"
-                    ],
-                    "id": "innersata18",
-                    "label": "Alertas agosto 2018"
-                }
-
+                "Q20_20181117",
+                "unique-id-1548180871597"
             ],
             "id": "sat",
             "label": "Sistema de Alerta Temprana de Deforestación (BETA)",
@@ -4072,37 +4071,35 @@
         },
         {
             "items": [
-
- {
+                {
                     "items": [
-             "spp_ftales_cites",
-                "pueblos_originarios",
-                "comun_pueblos"
+                        "spp_ftales_cites",
+                        "pueblos_originarios",
+                        "comun_pueblos"
                     ],
                     "id": "innerpueblosori",
                     "label": "Pueblos originarios y comunidades"
                 },
- {
+                {
                     "items": [
-              "unique-id-1520345504583",
+                        "unique-id-1520345504583",
                         "unique-id-1520345601501",
                         "reservas_biosfera",
                         "sitio_ramsar"
                     ],
-                  "id": "innerareasprotegidas",
+                    "id": "innerareasprotegidas",
                     "label": "Áreas naturales protegidas"
                 },
-{
+                {
                     "items": [
-                "ivs",
-                "tmax",
-                "tmin",
-                "ppanual"
+                        "ivs",
+                        "tmax",
+                        "tmin",
+                        "ppanual"
                     ],
                     "id": "innermapasriesgo",
                     "label": "Sistema de Mapas de Riesgos de Cambio Climático"
                 }
-
             ],
             "id": "infoaxiliar",
             "label": "Información auxiliar",
