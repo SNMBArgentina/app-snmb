@@ -210,7 +210,7 @@
             "sourceLabel": "",
             "visible": true,
             "baseUrl": "http://geo.ambiente.gob.ar/geoserver/ows",
-            "wmsName": "bosques:areas_protegidas_nacionales",
+            "wmsName": "areas_protegidas:araes_protegidas_apn",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
