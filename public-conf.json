@@ -10,7 +10,7 @@
 			"show-flag": true,
 			"show-logos": false,
                         "show-banner-izq": false,
-                        "show-banner-der": false,
+                        "show-banner-der": true,
 		},
 		"info-dialog": {
 			"open-in-center": false
