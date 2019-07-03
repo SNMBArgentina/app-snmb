@@ -35,11 +35,11 @@
         },
         {
             "baseUrl": "http://geo.ambiente.gob.ar/geoserver/ows",
-            "label": "Selva Misionera - Selva Paranaense (Bosque Nativo 2002)",
+            "label": "Selva Paranaense (Bosque Nativo 2002)",
             "visible": true,
             "imageFormat": "image/png8",
             "id": "selvamis_t",
-            "wmsName": "bosques:smi_98-02_umsef_3857",
+            "wmsName": "bosques:smi_98_02_umsef_3857",
             "legend": "auto",
             "type": "wms",
             "sourceLink": "",
@@ -88,7 +88,7 @@
             "visible": true,
             "imageFormat": "image/png8",
             "wmsName": "bosques:stbbn06",
-            "label": "Selva Tucumano Boliviana - Yungas (Bosque Nativo 2006)",
+            "label": "Yungas (Bosque Nativo 2006)",
             "id": "map-stb_t",
             "type": "wms",
             "sourceLink": "",
@@ -331,8 +331,8 @@
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
-            "baseUrl": "http://rdc-snsf.org/diss_geoserver/wms",
-            "wmsName": "unredd:blue_marble",
+            "baseUrl": "https://tiles.maps.eox.at/wms",
+            "wmsName": "bluemarble_3857",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -348,9 +348,9 @@
             "label": "",
             "sourceLink": "",
             "sourceLabel": "",
-            "visible": true,
-            "baseUrl": "http://geo.ambiente.gob.ar/geoserver/ows",
-            "wmsName": "bosques:capabaseargenmap",
+            "visible": false,
+            "baseUrl": "https://tiles.maps.eox.at/wms",
+            "wmsName": "s2cloudless-2018_3857",
             "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
@@ -391,7 +391,7 @@
             "visible": true,
             "baseUrl": "http://geo.ambiente.gob.ar/geoserver/ows",
             "wmsName": "bosques:distritos_espinal",
-            "imageFormat": "image/png",
+            "imageFormat": "image/png8",
             "queryType": "wms",
             "queryUrl": "",
             "queryGeomFieldName": "geom",
@@ -404,7 +404,8 @@
                 "Distrito"
             ],
             "queryTimeFieldName": "",
-            "queryHighlightBounds": true
+            "queryHighlightBounds": true,
+            "legend": "auto"
         },
         {
             "id": "subreg_pch",
@@ -1446,7 +1447,7 @@
         {
             "id": "unique-id-1524835809497",
             "type": "wms",
-            "label": "Selva Misionera - Paranaense (Pérdida de tierras forestales)",
+            "label": "Selva Paranaense (Pérdida de tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1464,7 +1465,7 @@
         {
             "id": "stb_ptf_98-16",
             "type": "wms",
-            "label": "Selva Tucumano Boliviana - Yungas (Pérdida de tierras forestales)",
+            "label": "Yungas (Pérdida de tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": false,
@@ -1482,7 +1483,7 @@
         {
             "id": "smi_potf_1998_2016",
             "type": "wms",
-            "label": "Selva Misionera - Paranaense (Pérdida de otras tierras forestales)",
+            "label": "Selva Paranaense (Pérdida de otras tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1500,7 +1501,7 @@
         {
             "id": "stb_potf_1998_2016",
             "type": "wms",
-            "label": "Selva Tucumano Boliviana - Yungas (Pérdida de otras tierras forestales)",
+            "label": "Yungas (Pérdida de otras tierras forestales)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1859,7 +1860,7 @@
         {
             "id": "stb_ben",
             "type": "wms",
-            "label": "Convergencia de beneficios (Selva Tucumano Boliviana - Yungas)",
+            "label": "Convergencia de beneficios (Yungas)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1882,7 +1883,7 @@
         {
             "id": "stb_biof",
             "type": "wms",
-            "label": "Dimensión biofísica (Selva Tucumano Boliviana - Yungas)",
+            "label": "Dimensión biofísica (Yungas)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1905,7 +1906,7 @@
         {
             "id": "stb_socio",
             "type": "wms",
-            "label": "Dimensión socioeconómica (Selva Tucumano Boliviana - Yungas)",
+            "label": "Dimensión socioeconómica (Yungas)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1928,7 +1929,7 @@
         {
             "id": "stb_biod",
             "type": "wms",
-            "label": "Dimensión biodiversidad (Selva Tucumano Boliviana - Yungas)",
+            "label": "Dimensión biodiversidad (Yungas)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1951,7 +1952,7 @@
         {
             "id": "smi_ben",
             "type": "wms",
-            "label": "Convergencia de beneficios (Selva Misionera - Selva Paranaense)",
+            "label": "Convergencia de beneficios (Selva Paranaense)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1974,7 +1975,7 @@
         {
             "id": "smi_biod",
             "type": "wms",
-            "label": "Dimensión biodiversidad (Selva Misionera - Selva Paranaense)",
+            "label": "Dimensión biodiversidad (Selva Paranaense)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -1997,7 +1998,7 @@
         {
             "id": "smi_socio",
             "type": "wms",
-            "label": "Dimensión socioeconómica (Selva Misionera - Selva Paranaense)",
+            "label": "Dimensión socioeconómica (Selva Paranaense)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -2020,7 +2021,7 @@
         {
             "id": "smi_biof",
             "type": "wms",
-            "label": "Dimensión biofísica (Selva Misionera - Selva Paranaense)",
+            "label": "Dimensión biofísica (Selva Paranaense)",
             "sourceLink": "",
             "sourceLabel": "",
             "visible": true,
@@ -2432,7 +2433,7 @@
             ],
             "feedback": true,
             "timeInstances": "1998,2002",
-            "label": "Selva Misionera - Selva Paranaense (2002)",
+            "label": "Selva Paranaense (2002)",
             "infoFile": "metadata_smi9802_bn_umsef.html",
             "active": false,
             "id": "selvamis_t",
@@ -2478,7 +2479,7 @@
             ],
             "feedback": true,
             "timeInstances": "1998-01-01T00:00:00.000Z,2002-01-01T00:00:00.000Z,2006-01-01T00:00:00.000Z",
-            "label": "Selva Tucumano Boliviana - Yungas (2006)",
+            "label": "Yungas (2006)",
             "infoFile": "metadata_stb9806_bn_umsef.html",
             "id": "stb_t",
             "infoLink": "",
@@ -2626,7 +2627,7 @@
             "timeInstances": "",
             "timeStyles": "",
             "date-format": "",
-            "active": false,
+            "active": true,
             "feedback": false
         },
         {
@@ -2634,7 +2635,7 @@
                 "unique-id-1520610491279"
             ],
             "id": "argenmap6",
-            "label": "ArgenMap",
+            "label": "Sentinel 2018",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -2669,7 +2670,8 @@
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "inlineLegendUrl": "auto"
         },
         {
             "layers": [
@@ -3211,7 +3213,7 @@
                 "unique-id-1524835809497"
             ],
             "id": "unique-id-1524835809497",
-            "label": "Selva Misionera - Paranaense",
+            "label": "Selva Paranaense",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
@@ -3225,7 +3227,7 @@
                 "stb_ptf_98-16"
             ],
             "id": "unique-id-1524841009587",
-            "label": "Selva Tucumano Boliviana - Yungas",
+            "label": "Yungas",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
@@ -3239,7 +3241,7 @@
                 "smi_potf_1998_2016"
             ],
             "id": "smi_potf_1998_2016",
-            "label": "Selva Misionera - Paranaense",
+            "label": "Selva Paranaense",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-01T00:00:00.000Z,2018-01-01T00:00:00.000Z",
@@ -3253,7 +3255,7 @@
                 "stb_potf_1998_2016"
             ],
             "id": "stb_potf_1998_2016",
-            "label": "Selva Tucumano Boliviana - Yungas",
+            "label": "Yungas",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "2003-01-01T00:00:00.000Z,2007-01-01T00:00:00.000Z,2008-01-01T00:00:00.000Z,2012-01-01T00:00:00.000Z,2014-01-01T00:00:00.000Z,2015-01-01T00:00:00.000Z,2016-01-01T00:00:00.000Z,2017-01-  01T00:00:00.000Z,2018-01-  01T00:00:00.000Z",
@@ -3309,7 +3311,7 @@
                 "bap_ben"
             ],
             "id": "bap_ben",
-            "label": "Convergencia de beneficios",
+            "label": "Convergencia de beneficios (Bosque Andino Patagónico)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3323,7 +3325,7 @@
                 "bap_socio"
             ],
             "id": "bap_socio",
-            "label": "Dimensión socioeconómica",
+            "label": "Dimensión socioeconómica (Bosque Andino Patagónico)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3338,7 +3340,7 @@
                 "bap_biof"
             ],
             "id": "bap_biof",
-            "label": "Dimensión biofísica",
+            "label": "Dimensión biofísica (Bosque Andino Patagónico)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3353,7 +3355,7 @@
                 "bap_biod"
             ],
             "id": "bap_biod",
-            "label": "Dimensión biodiversidad",
+            "label": "Dimensión biodiversidad (Bosque Andino Patagónico)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3368,7 +3370,7 @@
                 "esp_ben"
             ],
             "id": "esp_ben",
-            "label": "Convergencia de beneficios",
+            "label": "Convergencia de beneficios (Espinal)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3383,7 +3385,7 @@
                 "esp_biod"
             ],
             "id": "esp_biod",
-            "label": "Dimensión biodiversidad",
+            "label": "Dimensión biodiversidad (Espinal)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3397,7 +3399,7 @@
                 "esp_biof"
             ],
             "id": "esp_biof",
-            "label": "Dimensión biofísica",
+            "label": "Dimensión biofísica (Espinal)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3412,7 +3414,7 @@
                 "esp_socio"
             ],
             "id": "esp_socio",
-            "label": "Dimensión socioeconómica",
+            "label": "Dimensión socioeconómica (Espinal)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3427,7 +3429,7 @@
                 "mon_ben"
             ],
             "id": "mon_ben",
-            "label": "Convergencia de beneficios",
+            "label": "Convergencia de beneficios (Monte)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3441,7 +3443,7 @@
                 "mon_biod"
             ],
             "id": "mon_biod",
-            "label": "Dimensión biodiversidad",
+            "label": "Dimensión biodiversidad (Monte)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3456,7 +3458,7 @@
                 "mon_socio"
             ],
             "id": "mon_socio",
-            "label": "Dimensión socioeconómica",
+            "label": "Dimensión socioeconómica (Monte)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3471,7 +3473,7 @@
                 "mon_biof"
             ],
             "id": "mon_biof",
-            "label": "Dimensión biofísica",
+            "label": "Dimensión biofísica (Monte)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3485,7 +3487,7 @@
                 "stb_ben"
             ],
             "id": "stb_ben",
-            "label": "Convergencia de beneficios",
+            "label": "Convergencia de beneficios (Yungas)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3500,7 +3502,7 @@
                 "stb_biof"
             ],
             "id": "stb_biof",
-            "label": "Dimensión biofísica",
+            "label": "Dimensión biofísica (Yungas)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3515,7 +3517,7 @@
                 "stb_socio"
             ],
             "id": "stb_socio",
-            "label": "Dimensión socioeconómica",
+            "label": "Dimensión socioeconómica (Yungas)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3530,7 +3532,7 @@
                 "stb_biod"
             ],
             "id": "stb_biod",
-            "label": "Dimensión biodiversidad",
+            "label": "Dimensión biodiversidad (Yungas)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3545,7 +3547,7 @@
                 "smi_ben"
             ],
             "id": "smi_ben",
-            "label": "Convergencia de beneficios",
+            "label": "Convergencia de beneficios (Selva Paranaense)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3560,7 +3562,7 @@
                 "smi_biod"
             ],
             "id": "smi_biod",
-            "label": "Dimensión biodiversidad",
+            "label": "Dimensión biodiversidad (Selva Paranaense)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3575,7 +3577,7 @@
                 "smi_socio"
             ],
             "id": "smi_socio",
-            "label": "Dimensión socioeconómica",
+            "label": "Dimensión socioeconómica (Selva Paranaense)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3590,7 +3592,7 @@
                 "smi_biof"
             ],
             "id": "smi_biof",
-            "label": "Dimensión biofísica",
+            "label": "Dimensión biofísica (Selva Paranaense)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3633,7 +3635,7 @@
                 "pch_ben"
             ],
             "id": "pch_ben",
-            "label": "Convergencia de beneficios",
+            "label": "Convergencia de beneficios (Parque Chaqueño)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3647,7 +3649,7 @@
                 "pch_socio"
             ],
             "id": "pch_socio",
-            "label": "Dimensión socioeconómica",
+            "label": "Dimensión socioeconómica (Parque Chaqueño)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3662,7 +3664,7 @@
                 "pch_biof"
             ],
             "id": "pch_biof",
-            "label": "Dimensión biofísica",
+            "label": "Dimensión biofísica (Parque Chaqueño)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -3677,7 +3679,7 @@
                 "pch_biod"
             ],
             "id": "pch_biod",
-            "label": "Dimensión biodiversidad",
+            "label": "Dimensión biodiversidad (Parque Chaqueño)",
             "infoFile": "",
             "infoLink": "",
             "timeInstances": "",
@@ -4102,7 +4104,7 @@
                 }
             ],
             "id": "infoaxiliar",
-            "label": "Información auxiliar",
+            "label": "Otros datos sociales y ambientales",
             "infoFile": "",
             "infoLink": ""
         },
