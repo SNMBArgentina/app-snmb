@@ -2600,7 +2600,8 @@
             "timeStyles": "",
             "date-format": "",
             "active": true,
-            "feedback": false
+            "feedback": false,
+            "stats": true
         },
         {
             "layers": [
@@ -2614,7 +2615,8 @@
             "timeStyles": "",
             "date-format": "",
             "active": false,
-            "feedback": false
+            "feedback": false,
+            "downloadFile": true
         },
         {
             "layers": [
