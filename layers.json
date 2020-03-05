@@ -2439,7 +2439,10 @@
             "id": "selvamis_t",
             "infoLink": "",
             "timeStyles": "",
-            "date-format": ""
+            "date-format": "",
+            "metadataLink": "http://geomati.co",
+            "downloadFile": false,
+            "stats": false
         },
         {
             "active": false,
