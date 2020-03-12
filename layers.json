@@ -1,6 +1,24 @@
 {
     "wmsLayers": [
         {
+            "id": "modis",
+            "type": "wms",
+            "label": "",
+            "sourceLink": "",
+            "sourceLabel": "",
+            "visible": true,
+            "baseUrl": "https://tiles.maps.eox.at/wms",
+            "wmsName": "bluemarble_3857",
+            "imageFormat": "image/png8",
+            "queryType": "wms",
+            "queryUrl": "",
+            "queryGeomFieldName": "",
+            "queryFieldNames": [],
+            "queryFieldAliases": [],
+            "queryTimeFieldName": "",
+            "queryHighlightBounds": false
+        },
+        {
             "queryType": "wms",
             "baseUrl": "http://ide.siia.gov.ar/geosever/wms",
             "label": "DEM SRTM 500X500 V1",
@@ -323,24 +341,6 @@
             ],
             "queryTimeFieldName": "",
             "queryHighlightBounds": true
-        },
-        {
-            "id": "modis",
-            "type": "wms",
-            "label": "",
-            "sourceLink": "",
-            "sourceLabel": "",
-            "visible": true,
-            "baseUrl": "https://tiles.maps.eox.at/wms",
-            "wmsName": "bluemarble_3857",
-            "imageFormat": "image/png8",
-            "queryType": "wms",
-            "queryUrl": "",
-            "queryGeomFieldName": "",
-            "queryFieldNames": [],
-            "queryFieldAliases": [],
-            "queryTimeFieldName": "",
-            "queryHighlightBounds": false
         },
         {
             "id": "unique-id-1520610491279",
