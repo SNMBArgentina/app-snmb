@@ -3892,7 +3892,10 @@
                         "mon98"
                     ],
                     "id": "innerbosquenativo",
-                    "label": "Bosque Nativo"
+                    "label": "Bosque Nativo",
+                    "infoFile": "",
+                    "infoLink": "",
+                    "sameLegend": true
                 },
                 {
                     "items": [
@@ -3902,7 +3905,8 @@
                     "id": "innerbosquescultivados",
                     "label": "Bosque cultivado",
                     "infoFile": "",
-                    "infoLink": ""
+                    "infoLink": "",
+                    "sameLegend": false
                 }
             ],
             "id": "area_bosques",
@@ -3920,7 +3924,10 @@
                         "unique-id-1525181346224"
                     ],
                     "id": "innerperdidatf",
-                    "label": "Pérdida de tierras forestales"
+                    "label": "Pérdida de tierras forestales",
+                    "infoFile": "",
+                    "infoLink": "",
+                    "sameLegend": true
                 },
                 {
                     "items": [
@@ -3930,7 +3937,10 @@
                         "pch_potf_98-16"
                     ],
                     "id": "innerperdidaotf",
-                    "label": "Pérdida de otras tierras forestales"
+                    "label": "Pérdida de otras tierras forestales",
+                    "infoFile": "",
+                    "infoLink": "",
+                    "sameLegend": true
                 }
             ],
             "id": "proc_camb",
