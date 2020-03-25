@@ -36,11 +36,11 @@
     height: 92px;
     width: 100%;
     background-color: rgba(255,255,255,.9);
-    background: url(../static/img/right.jpg) no-repeat 0 0;
-    background-size: 100% 100%;
+    background: url(../static/img/right.jpg) no-repeat -250px 0;
+    background-size: auto 100%;
 }
 
-#toolbar {  
+#toolbar {
     background-color: rgba(0,0,0,0.3);
     height: 50px;
     z-index: 2000;
@@ -50,4 +50,27 @@
 
 body {
   font: "Trebuchet MS", sans-serif;
+}
+
+/* responsive header */
+
+@media (max-width: 880px) {
+  #flag {
+    display: none;
+  }
+  #title {
+    left: 20px;
+    top: 25px;
+    font-size: 18px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
 }
