@@ -55,22 +55,23 @@ body {
 /* responsive header */
 
 @media (max-width: 880px) {
+  #title {
+    font-size: 18px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 581px) and (max-width: 880px) {
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 580px) {
   #flag {
     display: none;
   }
   #title {
     left: 20px;
     top: 25px;
-    font-size: 18px;
   }
-}
-
-/* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {
-
-}
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-
 }
