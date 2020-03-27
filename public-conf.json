@@ -33,10 +33,13 @@
 	},
 	"footnote" : {
 		"_enabled": false
+	},	
+	"measure-tools" : {
+		"_enabled": true
 	},
-        "geoexplorer-reader" : {
-                "_enabled": false
-        },
+    "geoexplorer-reader" : {
+            "_enabled": false
+    },
 	"tour": {
                 "_enabled": false,
 		"tour": {
