@@ -3,6 +3,8 @@
   border-radius: 6px;
   padding: 3px;
   background: white;
+  max-width: 80%;
+  width: auto;
 }
 
 .dialog-title {
