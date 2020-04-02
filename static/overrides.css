@@ -24,9 +24,10 @@
 #flag {
   position: relative;
   top: 12px;
-  left: 12px;
+  left: 0px;
+  margin-left: 12px;
   height: 69px;
-  width: 99%; /* to prevent horizontal scroll */
+  width: auto;
   z-index: 1100;
   background: url(../static/img/min-ambiente-y-desarrollo-sostenible-01.jpg) no-repeat 0 0;
   background-size: 330px 70px;
